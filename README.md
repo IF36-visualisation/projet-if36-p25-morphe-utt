@@ -19,30 +19,30 @@ Les deux fichiers contiennent les observations suivantes :
 
 #### Description des variables
 
-| Variable                 | Description                                                         | Type                |
-|--------------------------|---------------------------------------------------------------------|---------------------|
-| `nom_du_vin`             | Nom commercial du vin.                                              | Catégorique         |
-| `region`                 | Région viticole d'origine (ex : Toscane, Bordeaux, Napa Valley).    | Catégorique         |
-| `cepage`                 | Type de raisin utilisé (ex : Cabernet Sauvignon, Malbec).           | Catégorique         |
-| `annee`                  | Année de production du vin (millésime).                             | Numérique (discret) |
-| `prix_eur`               | Prix du vin en euros (€).                                           | Numérique (continu) |
-| `type_vin`               | Type de vin (rouge, blanc, etc.).                                   | Catégorique         |
-| `fixed acidity`          | Quantité d'acide fixe présent dans le vin (g/dm³).                  | Numérique (continu) |
-| `volatile acidity`       | Quantité d'acide volatil, influence l'arôme (g/dm³).                | Numérique (continu) |
-| `citric acid`            | Quantité d'acide citrique, donne de la fraîcheur (g/dm³).           | Numérique (continu) |
-| `residual sugar`         | Teneur en sucre résiduel après fermentation (g/dm³).                | Numérique (continu) |
-| `chlorides`              | Teneur en chlorure (sel) du vin (g/dm³).                            | Numérique (continu) |
-| `free sulfur dioxide`    | Dioxyde de soufre libre, protège contre la dégradation (mg/dm³).    | Numérique (continu) |
-| `total sulfur dioxide`   | Quantité totale de dioxyde de soufre (mg/dm³).                      | Numérique (continu) |
-| `density`                | Densité du vin (g/cm³), liée à l'alcool et au sucre.                | Numérique (continu) |
-| `pH`                     | Mesure de l'acidité du vin (sans unité, entre 0 et 14).             | Numérique (continu) |
-| `sulphates`              | Teneur en sulfates, contribue à la conservation et au goût (g/dm³). | Numérique (continu) |
-| `alcohol`                | Teneur en alcool (% vol.).                                          | Numérique (continu) |
-| `quality`                | Note de qualité du vin (entre 0 et 10), attribuée par des experts.  | Numérique (discret) |
-| `temperature_service`    | Température idéale de dégustation (°C).                             | Numérique (continu) |
-| `tannins`                | Indice de teneur en tannins (impacte l'astringence du vin).         | Numérique (continu) |
-| `vieillissement_optimal` | Durée recommandée de vieillissement avant consommation (années).    | Numérique (discret) |
-| `quality`                | note de qualité du vin attribuée par des dégustateurs, de 0 à 10.   | Numérique (discret) |
+| Variable                 | Description                                                        | Type                |
+|--------------------------|--------------------------------------------------------------------|---------------------|
+| `nom_du_vin`             | Nom commercial du vin.                                             | Catégorique         |
+| `region`                 | Région viticole d'origine (ex : Toscane, Bordeaux, Napa Valley).   | Catégorique         |
+| `cepage`                 | Type de raisin utilisé (ex : Cabernet Sauvignon, Malbec).          | Catégorique         |
+| `annee`                  | Année de production du vin.                                        | Numérique (discret) |
+| `prix_eur`               | Prix du vin en euros (€).                                          | Numérique (continu) |
+| `type_vin`               | Type de vin (rouge, blanc).                                        | Catégorique         |
+| `fixed acidity`          | Quantité d'acide fixe présent dans le vin.                         | Numérique (continu) |
+| `volatile acidity`       | Quantité d'acide volatil, influence l'arôme.                       | Numérique (continu) |
+| `citric acid`            | Quantité d'acide citrique, donne de la fraîcheur.                  | Numérique (continu) |
+| `residual sugar`         | Teneur en sucre résiduel après fermentation.                       | Numérique (continu) |
+| `chlorides`              | Teneur en chlorure du vin.                                         | Numérique (continu) |
+| `free sulfur dioxide`    | Dioxyde de soufre libre, protège contre la dégradation .           | Numérique (continu) |
+| `total sulfur dioxide`   | Quantité totale de dioxyde de soufre .                             | Numérique (continu) |
+| `density`                | Densité du vin, liée à l'alcool et au sucre.                       | Numérique (continu) |
+| `pH`                     | Mesure de l'acidité du vin (sans unité, entre 0 et 14).            | Numérique (continu) |
+| `sulphates`              | Teneur en sulfates, contribue à la conservation et au goût  .      | Numérique (continu) |
+| `alcohol`                | Teneur en alcool (% vol.).                                         | Numérique (continu) |
+| `quality`                | Note de qualité du vin (entre 0 et 10), attribuée par des experts. | Numérique (discret) |
+| `temperature_service`    | Température idéale de dégustation (°C).                            | Numérique (continu) |
+| `tannins`                | Indice de teneur en tannins (impacte l'astringence du vin).        | Numérique (continu) |
+| `vieillissement_optimal` | Durée recommandée de vieillissement avant consommation .           | Numérique (discret) |
+| `quality`                | note de qualité du vin attribuée par des dégustateurs, de 0 à 10.  | Numérique (discret) |
 
 
 ---
