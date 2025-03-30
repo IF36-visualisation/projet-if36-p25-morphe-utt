@@ -1,0 +1,501 @@
+nom_du_vin;region;cepage;annee;prix_eur;type_vin;fixed acidity;volatile acidity;citric acid;residual sugar;chlorides;free sulfur dioxide;total sulfur dioxide;density;pH;sulphates;alcohol;quality;temperature_service;mineralite;vieillissement_optimal
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2011;42.46;Blanc;5.6;0.72;0.33;13.8;0.096;49;358;0.9871;3.79;0.36;9.1;7;9;0.18;3-7 ans
+Estate Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2022;42.25;Blanc;3.3;0.78;0.29;10.7;0.055;110;337;0.9852;3.79;1.0;14.2;4;11;1.04;2-11 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2022;131.51;Blanc;4.9;0.39;0.73;15.1;0.043;23;162;0.9943;3.47;0.33;12.4;9;7;0.19;2-5 ans
+Viña Rabigato de Douro;Douro;Rabigato;2015;25.77;Blanc;5.0;1.16;0.4;11.1;0.016;9;138;0.9866;2.93;1.43;9.2;5;12;0.29;3-10 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2017;91.22;Blanc;7.3;0.49;0.63;13.5;0.126;46;105;0.9951;2.92;0.52;11.2;9;7;0.7;3-12 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2019;97.6;Blanc;7.5;0.78;0.18;1.4;0.081;64;250;1.0037;3.47;1.22;10.3;9;6;0.38;3-8 ans
+Bodega Viosinho de Douro;Douro;Viosinho;2018;18.0;Blanc;7.5;0.64;0.54;7.7;0.141;48;383;0.9904;3.64;1.18;14.1;6;12;0.36;1-8 ans
+Clos Aligoté de Bourgogne;Bourgogne;Aligoté;2015;124.85;Blanc;8.5;0.82;0.62;6.7;0.129;139;54;0.9994;3.47;0.27;9.1;8;12;0.64;1-7 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2011;121.04;Blanc;4.6;0.91;0.7;5.9;0.045;35;151;1.0003;3.07;0.6;11.3;8;12;0.66;3-8 ans
+Domaine Chardonnay de Bourgogne;Bourgogne;Chardonnay;2022;108.72;Blanc;6.4;1.06;0.11;11.7;0.021;128;143;1.0033;3.78;1.29;11.8;4;6;0.95;1-7 ans
+Bodega Rabigato de Douro;Douro;Rabigato;2020;137.65;Blanc;6.9;0.55;0.13;12.8;0.048;22;86;1.0028;3.36;0.54;11.7;7;11;1.08;3-9 ans
+Viña Viura de Rioja;Rioja;Viura;2012;143.14;Blanc;7.7;1.03;0.54;4.5;0.077;80;163;0.9886;2.93;0.97;13.8;6;9;0.21;2-9 ans
+Vineyard Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2014;35.47;Blanc;5.5;0.67;0.95;8.6;0.111;122;302;1.0008;3.76;1.04;9.3;8;10;0.53;1-6 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2019;83.48;Blanc;6.9;0.31;0.32;1.2;0.05;8;280;0.9923;3.49;0.31;9.9;5;7;0.31;1-11 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2016;23.59;Blanc;8.3;0.87;0.16;14.7;0.109;23;397;0.9869;3.07;1.0;11.4;8;10;0.6;1-9 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2015;78.12;Blanc;7.0;0.18;0.66;16.6;0.01;112;329;1.0044;3.44;1.22;12.2;4;11;1.49;3-8 ans
+Vineyard Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2018;132.35;Blanc;5.1;0.55;0.68;8.7;0.145;128;362;0.9864;3.64;0.52;13.1;8;7;0.64;1-5 ans
+Clos Melon de Bourgogne de Loire;Loire;Melon de Bourgogne;2020;106.38;Blanc;8.4;0.25;0.82;5.3;0.135;104;189;0.9858;3.7;1.12;10.0;4;12;0.96;2-7 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2020;132.82;Blanc;5.9;0.95;0.24;15.4;0.117;18;225;0.9927;2.95;1.37;11.3;8;10;0.68;3-11 ans
+Bodega Viosinho de Douro;Douro;Viosinho;2019;145.09;Blanc;8.8;0.26;0.3;16.0;0.069;91;242;0.9882;3.74;0.52;10.9;7;10;0.94;1-10 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2015;35.88;Blanc;7.2;1.08;0.68;2.7;0.068;149;244;0.9985;3.76;0.24;11.6;6;10;0.48;2-8 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2010;12.34;Blanc;5.8;0.36;0.68;7.8;0.117;62;239;0.9989;3.02;1.39;13.9;4;9;0.97;2-5 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2011;104.83;Blanc;3.6;1.01;0.17;12.4;0.09;14;270;0.9916;3.42;0.86;11.4;5;6;0.17;1-7 ans
+Finca Viura de Rioja;Rioja;Viura;2022;119.94;Blanc;4.1;0.69;0.67;17.7;0.014;85;336;0.9865;3.6;1.06;13.9;7;11;1.11;2-9 ans
+Bodega Rabigato de Douro;Douro;Rabigato;2010;22.16;Blanc;7.6;0.64;0.85;16.8;0.034;125;354;0.9923;3.48;0.94;13.6;6;9;0.87;1-8 ans
+Viña Viura de Rioja;Rioja;Viura;2020;96.02;Blanc;7.0;0.31;0.8;4.7;0.113;19;360;1.0012;3.65;1.39;11.7;4;8;0.99;2-11 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2017;32.62;Blanc;7.5;0.85;0.13;15.2;0.015;46;40;0.9946;3.67;0.83;10.7;5;12;0.58;2-5 ans
+Château Chardonnay de Bourgogne;Bourgogne;Chardonnay;2013;64.33;Blanc;8.5;0.26;0.43;16.2;0.075;131;310;0.9854;3.54;1.41;13.1;8;12;0.46;2-5 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2016;25.83;Blanc;4.5;1.1;0.42;3.1;0.037;71;74;0.996;3.04;0.72;12.2;6;8;0.33;2-12 ans
+Finca Viosinho de Douro;Douro;Viosinho;2014;43.7;Blanc;7.7;0.36;0.43;8.2;0.054;102;51;0.9902;3.32;0.6;9.0;9;11;0.89;3-10 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2020;107.59;Blanc;8.6;1.01;0.34;14.5;0.066;118;366;0.9974;3.77;0.49;11.0;4;12;1.06;3-8 ans
+Viña Viosinho de Douro;Douro;Viosinho;2019;121.57;Blanc;6.1;1.17;0.92;8.0;0.105;40;43;0.9985;3.66;0.62;9.8;8;12;1.38;2-5 ans
+Domaine Gewurztraminer de Alsace;Alsace;Gewurztraminer;2017;71.78;Blanc;7.9;1.19;0.68;5.1;0.089;42;139;1.0007;3.19;0.89;12.7;5;12;0.38;3-6 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2013;135.22;Blanc;4.2;0.39;0.98;18.2;0.142;27;150;0.9928;2.92;0.68;12.9;6;12;1.43;2-6 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2022;125.91;Blanc;8.7;0.84;0.27;2.5;0.028;68;282;0.9946;3.76;1.31;13.7;5;10;0.42;2-11 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2022;58.92;Blanc;6.8;1.15;0.63;16.4;0.04;131;148;0.9931;3.58;0.88;13.1;8;12;0.94;2-5 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2017;114.37;Blanc;5.5;0.2;0.53;15.6;0.052;71;257;0.9949;3.44;0.35;11.4;4;11;1.49;3-8 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2019;144.52;Blanc;6.0;0.8;0.93;5.4;0.131;34;354;0.9945;3.13;0.54;11.9;5;11;0.38;1-7 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2011;33.96;Blanc;4.5;0.64;0.63;5.1;0.091;80;148;0.9984;3.59;1.35;11.3;7;11;0.9;3-12 ans
+Clos Sylvaner de Alsace;Alsace;Sylvaner;2014;29.63;Blanc;5.3;0.29;0.13;17.9;0.132;83;364;1.0046;3.79;1.25;12.6;9;9;1.09;1-5 ans
+Domaine Chenin Blanc de Loire;Loire;Chenin Blanc;2019;21.98;Blanc;7.0;0.19;0.67;12.3;0.122;19;290;0.9989;3.01;0.7;11.7;6;8;0.27;3-5 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2018;76.78;Blanc;5.1;0.2;0.9;16.1;0.121;48;176;0.9871;3.21;0.87;11.4;6;6;0.53;1-11 ans
+Château Chardonnay de Bourgogne;Bourgogne;Chardonnay;2016;117.84;Blanc;4.1;1.03;0.69;7.1;0.056;121;225;0.9858;3.69;0.55;14.2;8;8;0.15;2-10 ans
+Finca Rabigato de Douro;Douro;Rabigato;2011;134.4;Blanc;7.9;1.12;0.13;11.2;0.037;112;159;0.9908;3.14;0.7;9.1;7;7;1.46;3-9 ans
+Domaine Sylvaner de Alsace;Alsace;Sylvaner;2022;26.19;Blanc;5.3;1.11;0.14;7.3;0.044;61;127;1.002;3.69;0.2;11.2;7;7;0.23;2-7 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2014;94.72;Blanc;8.9;0.11;0.47;5.7;0.07;66;202;0.9902;3.04;0.74;11.1;9;10;0.55;3-5 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2017;53.19;Blanc;6.7;0.57;0.87;1.1;0.083;63;95;0.9905;3.03;1.0;14.4;5;10;0.7;1-11 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2012;76.61;Blanc;3.7;0.78;0.43;17.5;0.012;89;271;0.9953;3.01;0.97;9.0;9;6;0.92;3-6 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2020;64.03;Blanc;8.5;0.78;0.63;7.9;0.061;88;259;0.9935;3.43;1.47;12.9;8;6;0.76;2-7 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2018;17.85;Blanc;8.5;0.12;0.35;14.2;0.127;33;269;0.9918;3.0;1.16;11.0;8;6;1.22;2-6 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2022;8.37;Blanc;5.3;0.52;0.9;8.3;0.119;47;194;0.9852;2.97;0.28;12.6;7;9;0.53;2-8 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2020;86.05;Blanc;5.9;1.05;0.97;19.9;0.087;72;101;0.9889;3.65;1.2;13.6;4;6;1.28;3-9 ans
+Finca Viura de Rioja;Rioja;Viura;2022;110.69;Blanc;8.7;0.29;0.64;10.9;0.103;104;279;1.0021;3.78;1.03;9.7;6;9;1.42;2-11 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2010;136.79;Blanc;3.9;1.03;0.8;6.9;0.102;17;314;0.9963;3.68;1.4;10.4;5;8;0.63;2-6 ans
+Château Chenin Blanc de Loire;Loire;Chenin Blanc;2012;42.37;Blanc;6.4;0.96;0.73;8.1;0.117;66;50;1.002;3.44;1.4;10.6;4;8;0.7;3-10 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2011;72.76;Blanc;8.4;0.48;0.21;16.2;0.065;50;339;0.9893;3.73;1.15;10.6;5;7;0.17;3-5 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2013;14.87;Blanc;8.0;0.19;0.35;6.6;0.1;91;67;0.9978;2.92;0.81;10.5;6;9;0.66;2-7 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2019;136.88;Blanc;3.9;0.9;0.8;9.4;0.134;118;138;0.9925;2.91;1.19;12.9;7;10;0.59;2-7 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2018;124.52;Blanc;5.7;0.8;0.67;10.3;0.13;76;246;0.9948;3.09;1.07;11.7;6;11;1.41;2-6 ans
+Bodega Viura de Rioja;Rioja;Viura;2014;71.97;Blanc;3.5;1.16;0.87;19.3;0.108;6;269;0.9942;3.42;0.78;10.7;4;6;0.16;2-9 ans
+Estate Riesling de Barossa;Barossa;Riesling;2013;12.29;Blanc;6.8;1.08;0.15;16.1;0.074;134;169;0.9951;3.3;0.73;10.5;6;7;0.99;1-9 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2016;105.4;Blanc;8.5;0.4;0.18;8.5;0.052;128;191;1.0002;3.06;0.89;11.4;7;11;0.13;2-11 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2015;86.29;Blanc;4.4;0.71;0.28;12.3;0.145;17;235;1.002;3.65;0.27;12.0;4;7;1.42;3-11 ans
+Vineyard Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2010;141.07;Blanc;5.6;0.57;1.0;2.6;0.119;70;32;0.9991;3.58;0.49;10.2;9;6;0.2;2-10 ans
+Finca Viosinho de Douro;Douro;Viosinho;2011;69.04;Blanc;7.9;0.21;0.48;11.9;0.022;55;234;0.999;3.29;0.75;12.8;9;9;1.05;3-7 ans
+Finca Viura de Rioja;Rioja;Viura;2015;143.09;Blanc;8.0;1.03;0.5;16.8;0.087;34;86;0.9875;2.97;0.68;10.2;6;9;1.02;3-8 ans
+Château Melon de Bourgogne de Loire;Loire;Melon de Bourgogne;2013;61.59;Blanc;7.3;1.18;0.9;11.7;0.034;38;74;1.0029;3.31;1.43;11.5;5;10;0.76;1-8 ans
+Clos Aligoté de Bourgogne;Bourgogne;Aligoté;2021;67.76;Blanc;7.1;0.75;0.78;2.4;0.138;139;96;0.9964;3.45;0.87;13.4;5;8;1.21;1-10 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2014;48.42;Blanc;7.6;1.14;0.31;9.0;0.109;23;237;0.9981;3.33;1.46;11.9;9;6;1.42;1-9 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2017;142.92;Blanc;8.5;0.13;0.8;10.0;0.05;13;384;0.9894;3.61;0.84;12.3;8;8;1.41;3-11 ans
+Clos Gewurztraminer de Alsace;Alsace;Gewurztraminer;2021;61.92;Blanc;7.2;0.19;0.89;4.1;0.058;42;185;1.0042;3.54;1.32;9.6;9;9;1.17;3-8 ans
+Estate Riesling de Barossa;Barossa;Riesling;2019;98.13;Blanc;8.6;0.43;0.57;9.8;0.133;5;128;0.9974;3.74;0.29;12.0;8;10;1.26;2-10 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2018;109.64;Blanc;7.7;0.62;0.38;3.7;0.085;128;128;0.9902;3.17;0.58;14.0;9;11;0.62;1-12 ans
+Bodega Viura de Rioja;Rioja;Viura;2021;84.6;Blanc;4.3;0.33;0.76;8.1;0.041;78;65;0.9996;2.92;0.31;10.4;8;8;1.4;3-7 ans
+Finca Viura de Rioja;Rioja;Viura;2012;79.5;Blanc;4.3;0.34;0.8;12.0;0.1;109;119;0.989;3.07;0.89;10.8;9;6;0.85;3-7 ans
+Domaine Chenin Blanc de Loire;Loire;Chenin Blanc;2016;103.52;Blanc;3.6;0.84;0.15;10.4;0.115;120;236;0.9888;3.24;0.54;9.1;7;12;1.37;3-7 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2018;81.26;Blanc;5.3;0.87;0.77;1.2;0.01;39;349;0.9883;3.51;0.71;9.8;7;12;1.1;2-12 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2019;70.36;Blanc;8.1;0.19;0.64;11.8;0.079;128;151;1.0036;3.07;1.35;11.6;6;10;0.41;1-10 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2013;125.38;Blanc;8.7;1.08;0.19;3.5;0.024;94;176;0.9946;3.09;1.12;10.8;9;7;0.27;1-7 ans
+Domaine Chardonnay de Bourgogne;Bourgogne;Chardonnay;2021;109.41;Blanc;8.8;1.0;0.89;3.9;0.084;127;112;0.9985;3.2;0.7;9.1;6;10;1.41;3-9 ans
+Vineyard Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2016;42.12;Blanc;5.5;0.23;0.53;8.8;0.065;42;172;0.997;3.21;0.32;11.8;8;12;1.06;1-5 ans
+Estate Riesling de Barossa;Barossa;Riesling;2019;93.94;Blanc;3.9;0.32;0.29;16.7;0.127;148;288;1.0011;3.01;0.84;12.2;8;8;0.93;1-8 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2010;148.93;Blanc;3.6;0.38;0.86;12.3;0.02;12;111;0.9931;3.39;1.22;10.5;7;11;0.35;1-12 ans
+Viña Rabigato de Douro;Douro;Rabigato;2018;62.84;Blanc;3.5;0.22;0.91;1.1;0.042;108;354;0.9949;3.19;1.04;10.6;8;12;0.35;3-5 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2022;140.43;Blanc;5.1;0.72;0.73;18.0;0.039;40;288;0.9959;3.78;0.93;13.6;6;12;0.51;1-6 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2019;101.74;Blanc;4.9;1.12;0.59;5.1;0.108;46;204;0.9922;3.72;0.94;13.3;4;10;1.15;1-7 ans
+Finca Viosinho de Douro;Douro;Viosinho;2012;138.38;Blanc;5.3;1.03;0.81;1.4;0.114;114;347;0.9979;3.36;0.6;11.9;7;8;0.29;2-5 ans
+Clos Aligoté de Bourgogne;Bourgogne;Aligoté;2014;106.86;Blanc;6.5;0.5;0.79;11.3;0.098;25;156;0.9961;2.93;0.31;10.7;9;10;0.79;1-5 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2021;12.19;Blanc;4.9;0.35;0.64;10.4;0.127;64;191;0.9999;3.78;0.97;9.8;8;6;0.56;2-11 ans
+Estate Chardonnay de Californie;Californie;Chardonnay;2015;17.61;Blanc;4.9;0.48;0.66;17.2;0.121;109;328;0.9905;3.62;1.32;11.5;4;8;0.69;1-11 ans
+Château Gewurztraminer de Alsace;Alsace;Gewurztraminer;2010;116.32;Blanc;8.4;1.08;0.53;3.0;0.084;78;104;0.9979;3.29;1.12;9.1;8;8;1.43;2-7 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2019;95.61;Blanc;5.1;0.41;1.0;19.5;0.134;46;184;1.0004;3.72;0.66;12.4;7;11;1.27;3-12 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2020;34.41;Blanc;7.2;0.92;0.68;17.0;0.056;79;171;0.996;3.56;1.11;10.2;8;6;1.45;1-5 ans
+Clos Melon de Bourgogne de Loire;Loire;Melon de Bourgogne;2014;30.54;Blanc;4.2;0.91;0.99;0.9;0.07;114;98;1.0003;2.93;0.36;14.2;9;9;0.49;2-7 ans
+Bodega Rabigato de Douro;Douro;Rabigato;2018;10.07;Blanc;7.8;0.5;0.83;16.1;0.144;90;63;1.0007;3.32;0.38;10.8;9;7;0.61;1-12 ans
+Domaine Aligoté de Bourgogne;Bourgogne;Aligoté;2013;52.2;Blanc;4.9;0.61;0.5;10.8;0.027;32;349;1.0042;3.58;0.43;10.5;6;7;0.97;1-7 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2021;37.03;Blanc;5.2;0.47;0.8;6.9;0.051;74;193;0.9887;3.35;0.85;12.8;7;9;0.53;2-12 ans
+Viña Viura de Rioja;Rioja;Viura;2020;145.08;Blanc;3.1;0.58;0.32;15.2;0.124;122;292;1.0017;3.45;1.1;9.5;5;10;1.08;3-12 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2018;147.84;Blanc;8.7;0.29;0.33;17.0;0.01;38;344;0.9985;3.18;1.28;12.3;7;9;0.85;1-8 ans
+Domaine Aligoté de Bourgogne;Bourgogne;Aligoté;2015;144.19;Blanc;6.3;0.48;0.3;18.7;0.138;113;46;0.9875;2.92;1.23;10.9;9;6;0.16;1-5 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2022;8.47;Blanc;7.9;0.17;0.74;2.8;0.061;120;176;0.9983;3.4;1.14;10.2;9;9;1.49;3-11 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2013;67.95;Blanc;8.8;0.58;0.76;6.2;0.066;19;234;1.0042;3.62;0.48;13.6;6;10;1.02;1-11 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2017;8.85;Blanc;8.2;0.3;0.51;6.9;0.074;41;127;0.9914;3.66;0.24;14.1;9;6;0.24;2-12 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2010;42.04;Blanc;4.7;0.94;0.85;13.4;0.036;103;97;0.9954;3.61;0.61;10.3;5;10;0.49;3-7 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2013;83.6;Blanc;6.4;0.36;0.73;19.3;0.021;41;371;0.9974;3.57;0.82;10.7;9;7;0.36;3-10 ans
+Viña Viura de Rioja;Rioja;Viura;2015;34.21;Blanc;3.2;0.14;0.26;4.7;0.067;129;226;0.9924;3.18;1.37;12.2;9;9;0.64;2-6 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2018;53.41;Blanc;3.3;0.72;0.16;5.7;0.087;126;168;0.9889;3.25;1.19;9.6;4;12;1.26;1-12 ans
+Château Gewurztraminer de Alsace;Alsace;Gewurztraminer;2020;55.87;Blanc;3.3;0.85;0.84;14.9;0.115;97;150;0.99;3.71;0.38;11.2;8;10;1.08;1-11 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2012;116.2;Blanc;3.8;0.3;0.9;5.4;0.132;104;387;0.9937;3.7;1.0;12.4;5;10;0.99;2-8 ans
+Domaine Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2014;101.01;Blanc;4.7;0.56;0.85;18.7;0.036;46;282;1.0024;3.69;0.76;11.4;4;10;0.59;3-12 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2022;48.94;Blanc;6.3;0.23;0.41;9.1;0.027;73;264;1.0008;3.02;0.96;10.7;5;6;0.31;3-7 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2019;17.36;Blanc;6.2;0.48;0.83;10.1;0.112;69;336;0.9884;3.46;1.06;10.3;9;7;0.29;1-9 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2018;143.45;Blanc;6.1;1.16;0.64;12.7;0.126;150;214;0.9922;3.34;0.83;12.8;9;7;0.97;1-9 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2011;147.12;Blanc;3.3;1.02;0.35;15.5;0.016;8;273;0.985;2.93;0.87;13.3;8;8;1.19;3-5 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2020;99.68;Blanc;8.4;1.01;0.29;18.6;0.128;67;330;0.9875;3.04;1.41;9.1;4;12;1.1;1-12 ans
+Estate Semillon de Hunter Valley;Hunter Valley;Semillon;2015;22.45;Blanc;3.6;0.5;0.88;7.9;0.012;114;197;0.9983;3.59;0.92;10.4;5;10;0.76;3-11 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2012;59.54;Blanc;8.3;0.2;0.99;2.7;0.09;55;195;0.9947;3.64;0.29;13.3;7;9;1.1;2-5 ans
+Bodega Rabigato de Douro;Douro;Rabigato;2022;120.77;Blanc;8.8;0.39;0.86;0.7;0.043;18;158;0.9906;3.36;1.03;12.0;6;7;0.9;1-7 ans
+Domaine Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2010;143.9;Blanc;6.8;0.73;0.31;12.0;0.133;110;395;1.0008;3.26;0.7;14.2;8;7;1.23;2-12 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2017;130.39;Blanc;6.2;0.19;0.54;9.3;0.014;49;159;1.0009;3.54;1.09;12.0;7;8;1.04;1-12 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2020;42.53;Blanc;8.4;1.12;0.36;4.8;0.033;84;193;1.0029;3.05;1.06;13.5;6;9;1.47;2-8 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2017;131.34;Blanc;3.4;1.15;0.41;3.2;0.143;142;164;0.9873;3.12;0.75;13.5;4;8;0.42;1-5 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2011;69.99;Blanc;7.1;1.06;0.58;16.3;0.124;86;253;0.9902;3.22;1.49;12.1;4;6;1.05;2-7 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2016;98.32;Blanc;5.5;0.35;0.88;1.4;0.086;121;34;0.9958;3.25;1.26;10.9;5;6;0.38;3-11 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2012;103.15;Blanc;4.6;0.64;0.64;14.8;0.06;71;332;0.9903;3.15;1.01;10.6;9;7;0.48;3-9 ans
+Finca Viura de Rioja;Rioja;Viura;2022;141.76;Blanc;8.5;0.7;0.42;0.5;0.071;146;234;0.9908;3.18;0.97;14.3;5;9;0.11;1-8 ans
+Domaine Sylvaner de Alsace;Alsace;Sylvaner;2012;53.6;Blanc;8.4;0.69;0.82;1.8;0.078;130;360;0.9984;3.03;1.28;11.8;6;6;0.53;2-9 ans
+Vineyard Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2013;84.16;Blanc;6.7;0.7;0.9;12.0;0.084;47;293;0.9911;3.74;1.14;13.1;5;8;0.11;3-9 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2013;123.3;Blanc;4.0;0.47;0.73;5.4;0.047;11;102;0.9939;2.91;0.71;9.9;4;6;1.09;1-10 ans
+Clos Pinot Gris de Alsace;Alsace;Pinot Gris;2011;34.27;Blanc;4.6;0.3;0.6;12.4;0.071;64;266;0.987;3.56;0.91;9.6;7;9;0.75;1-10 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2012;86.13;Blanc;7.0;1.18;0.78;8.1;0.122;149;225;0.9982;3.14;1.35;13.3;8;7;1.45;3-7 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2013;16.06;Blanc;5.6;0.44;0.69;8.6;0.098;55;217;0.9974;3.45;1.18;9.7;5;11;0.16;1-6 ans
+Château Melon de Bourgogne de Loire;Loire;Melon de Bourgogne;2017;25.77;Blanc;4.2;0.58;0.18;16.8;0.074;63;325;0.9933;3.68;1.24;11.6;5;6;1.48;3-9 ans
+Clos Sylvaner de Alsace;Alsace;Sylvaner;2018;22.9;Blanc;3.2;0.44;0.85;14.7;0.091;69;36;0.9869;3.33;0.85;11.1;8;10;1.07;1-11 ans
+Finca Rabigato de Douro;Douro;Rabigato;2019;85.8;Blanc;6.7;1.03;0.77;12.5;0.043;111;221;1.002;3.5;0.21;12.2;8;11;0.25;2-8 ans
+Bodega Viura de Rioja;Rioja;Viura;2021;136.92;Blanc;3.7;0.71;0.64;6.5;0.065;129;243;1.0015;3.43;1.22;9.3;8;11;0.18;2-5 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2019;79.33;Blanc;7.4;0.74;0.51;11.4;0.014;99;311;0.9932;3.13;0.29;10.2;4;8;1.05;2-7 ans
+Château Melon de Bourgogne de Loire;Loire;Melon de Bourgogne;2011;135.25;Blanc;8.3;0.72;0.73;18.8;0.137;70;307;0.997;2.96;0.91;11.6;8;11;0.82;3-8 ans
+Estate Chardonnay de Californie;Californie;Chardonnay;2013;82.6;Blanc;7.7;0.39;0.77;1.0;0.049;96;377;1.0032;3.44;0.66;12.8;7;11;0.12;2-8 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2010;139.27;Blanc;4.5;0.27;0.59;17.2;0.018;72;86;0.9911;3.24;1.23;10.6;9;12;1.18;2-11 ans
+Bodega Rabigato de Douro;Douro;Rabigato;2016;144.2;Blanc;7.7;0.83;0.43;15.8;0.145;25;280;0.9903;3.74;0.51;13.5;4;9;1.41;2-12 ans
+Clos Chardonnay de Bourgogne;Bourgogne;Chardonnay;2015;67.8;Blanc;3.2;0.39;0.21;7.2;0.084;96;362;0.9963;3.45;0.79;9.6;8;10;0.41;2-5 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2012;148.79;Blanc;5.9;0.33;0.28;19.6;0.083;65;160;0.9905;3.16;1.48;13.5;4;11;0.79;3-8 ans
+Estate Semillon de Hunter Valley;Hunter Valley;Semillon;2014;30.99;Blanc;3.6;0.42;0.4;6.1;0.102;45;261;1.0031;3.51;0.83;13.7;6;12;0.62;3-7 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2015;122.99;Blanc;3.2;1.19;0.3;1.5;0.014;135;361;0.9861;3.54;1.14;9.1;9;7;0.18;3-9 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2017;34.38;Blanc;5.1;1.13;0.32;12.1;0.07;39;164;0.9916;3.28;0.41;9.4;4;9;0.16;2-8 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2012;104.73;Blanc;7.4;1.19;0.87;12.1;0.021;26;143;0.9863;3.58;1.45;9.7;5;7;0.17;2-9 ans
+Domaine Chardonnay de Bourgogne;Bourgogne;Chardonnay;2010;31.16;Blanc;8.0;0.91;0.88;9.0;0.123;5;314;1.0014;3.13;0.82;13.5;4;11;0.67;3-6 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2021;27.82;Blanc;4.6;0.45;0.3;9.6;0.101;72;368;0.9876;3.6;1.07;9.9;7;7;0.12;3-10 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2011;38.68;Blanc;8.5;0.11;0.57;2.1;0.047;92;367;0.9964;3.16;1.02;9.6;4;7;0.66;3-8 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2019;12.11;Blanc;3.0;0.71;0.44;6.1;0.099;140;173;1.0034;3.18;0.42;12.7;8;9;0.39;2-9 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2014;135.98;Blanc;7.6;0.72;0.93;6.7;0.113;136;56;1.0047;3.67;0.5;9.3;6;6;0.67;3-12 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2014;132.44;Blanc;6.7;0.11;0.15;8.7;0.143;32;34;0.9995;3.7;0.38;12.0;9;8;0.93;1-11 ans
+Finca Viura de Rioja;Rioja;Viura;2015;83.13;Blanc;4.4;0.67;0.88;11.2;0.137;18;223;1.0029;3.35;0.82;11.9;6;9;1.33;1-8 ans
+Clos Chenin Blanc de Loire;Loire;Chenin Blanc;2015;107.46;Blanc;5.5;1.06;0.5;16.8;0.125;129;217;0.9896;3.05;1.39;11.3;8;9;0.81;1-10 ans
+Bodega Viosinho de Douro;Douro;Viosinho;2014;100.23;Blanc;7.3;1.06;0.44;4.1;0.015;74;105;0.987;3.63;0.92;9.9;9;11;1.28;2-10 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2012;111.82;Blanc;8.6;0.59;0.56;8.4;0.138;125;361;1.0025;3.08;1.05;12.8;8;7;0.81;1-12 ans
+Estate Riesling de Barossa;Barossa;Riesling;2010;52.47;Blanc;8.1;0.79;0.75;10.6;0.014;16;358;1.0003;3.14;0.88;12.7;8;12;0.54;1-8 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2011;59.01;Blanc;8.1;0.28;0.65;7.4;0.061;71;215;0.9886;3.54;0.3;11.7;4;12;0.21;1-10 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2020;103.37;Blanc;8.3;0.93;0.76;1.0;0.109;45;184;0.9942;3.27;1.45;9.1;5;8;0.66;2-10 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2019;41.94;Blanc;6.7;0.17;0.96;16.8;0.03;97;49;1.004;3.3;0.27;11.7;6;9;0.71;3-10 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2018;60.34;Blanc;4.8;0.1;0.53;2.8;0.112;14;116;0.9908;3.43;0.41;12.8;5;6;1.14;1-8 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2022;79.11;Blanc;9.0;0.94;0.26;14.8;0.085;52;83;0.9969;3.16;1.25;11.1;5;9;1.46;3-10 ans
+Clos Aligoté de Bourgogne;Bourgogne;Aligoté;2019;138.25;Blanc;3.7;0.52;0.66;14.1;0.106;140;152;0.9859;3.46;0.57;10.8;4;6;0.82;3-5 ans
+Domaine Riesling de Alsace;Alsace;Riesling;2013;112.62;Blanc;5.6;0.84;0.92;18.6;0.124;44;113;1.0001;3.58;1.45;12.6;7;6;0.26;1-5 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2011;52.06;Blanc;5.1;0.74;0.42;9.5;0.107;95;67;0.9968;2.91;0.71;11.8;7;12;0.41;1-11 ans
+Finca Viura de Rioja;Rioja;Viura;2018;70.68;Blanc;7.5;0.94;0.94;0.9;0.114;112;318;1.0009;3.51;0.46;12.7;5;7;1.33;2-5 ans
+Domaine Chenin Blanc de Loire;Loire;Chenin Blanc;2015;129.73;Blanc;5.0;0.73;0.92;9.5;0.136;28;152;0.9974;3.56;1.06;11.8;8;6;1.23;3-6 ans
+Estate Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2019;31.04;Blanc;6.4;0.11;0.42;4.5;0.074;63;291;0.9863;3.53;0.55;12.8;6;6;1.11;2-11 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2022;58.2;Blanc;5.3;0.63;0.31;4.9;0.024;53;250;0.9895;3.57;0.5;9.7;6;12;0.17;2-11 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2015;79.53;Blanc;4.8;0.71;0.89;0.8;0.062;31;120;0.9956;3.19;1.28;14.0;6;8;0.28;1-7 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2010;142.34;Blanc;8.1;0.12;0.48;6.9;0.05;144;65;0.9881;3.27;0.62;14.3;4;11;0.72;3-8 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2016;86.39;Blanc;5.5;0.45;0.57;8.5;0.122;25;100;1.0021;3.58;1.17;11.4;7;6;1.36;3-7 ans
+Bodega Rabigato de Douro;Douro;Rabigato;2021;130.47;Blanc;7.8;0.72;0.48;19.7;0.023;83;224;0.9868;3.74;1.12;11.8;6;11;1.48;3-10 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2015;84.73;Blanc;7.7;0.77;0.42;17.6;0.129;10;143;0.9884;3.19;0.77;10.5;6;12;0.14;2-8 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2017;79.24;Blanc;6.2;0.19;0.23;14.8;0.127;57;175;1.0025;3.51;1.0;9.1;9;10;1.4;1-12 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2015;108.92;Blanc;4.3;0.65;0.11;17.7;0.123;66;387;1.0001;3.45;0.97;11.4;8;9;1.3;1-5 ans
+Finca Viura de Rioja;Rioja;Viura;2018;72.3;Blanc;5.6;0.32;0.15;14.8;0.069;71;192;0.9863;3.64;0.29;9.2;7;6;0.83;3-7 ans
+Clos Chardonnay de Bourgogne;Bourgogne;Chardonnay;2015;48.19;Blanc;3.9;0.89;0.75;15.1;0.092;74;226;1.0045;2.97;0.57;13.8;5;12;0.25;1-10 ans
+Bodega Viosinho de Douro;Douro;Viosinho;2019;148.31;Blanc;7.0;1.07;0.46;7.8;0.067;86;186;0.9989;3.11;0.96;10.9;9;9;0.26;2-7 ans
+Domaine Aligoté de Bourgogne;Bourgogne;Aligoté;2012;59.9;Blanc;4.2;0.33;0.96;10.8;0.014;26;370;1.0042;3.44;1.21;13.3;5;9;0.23;2-9 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2013;63.04;Blanc;4.9;0.5;0.55;7.7;0.148;15;106;0.9926;3.09;0.73;12.9;4;7;1.19;1-8 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2017;55.54;Blanc;6.5;0.3;0.18;19.3;0.015;108;67;0.9854;3.05;0.3;13.2;6;10;0.69;1-8 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2010;75.91;Blanc;7.0;0.81;0.28;15.6;0.147;53;219;0.9894;3.12;1.2;10.1;5;6;0.34;1-11 ans
+Vineyard Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2011;61.19;Blanc;7.9;0.55;0.17;10.0;0.072;24;317;0.999;2.9;0.34;12.2;9;7;1.06;3-8 ans
+Viña Rabigato de Douro;Douro;Rabigato;2018;55.19;Blanc;4.6;0.68;0.68;6.1;0.025;141;289;0.9993;3.78;0.62;11.0;7;11;0.51;2-9 ans
+Bodega Viura de Rioja;Rioja;Viura;2011;13.94;Blanc;6.2;0.68;0.45;8.3;0.015;125;383;0.9936;3.03;1.21;14.1;6;10;0.34;3-8 ans
+Château Chenin Blanc de Loire;Loire;Chenin Blanc;2012;44.39;Blanc;6.3;1.07;0.21;5.3;0.027;41;398;1.0023;3.52;1.12;13.7;6;6;1.17;3-8 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2017;27.41;Blanc;5.0;0.71;0.76;13.6;0.134;12;104;1.0029;2.98;0.56;10.4;4;11;1.09;2-11 ans
+Château Chenin Blanc de Loire;Loire;Chenin Blanc;2016;137.99;Blanc;3.8;1.01;0.21;11.1;0.08;118;122;0.9952;3.7;0.59;12.4;4;6;1.49;1-7 ans
+Clos Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2017;27.8;Blanc;7.8;0.74;0.56;8.1;0.121;26;126;0.9885;3.15;0.86;10.9;9;9;1.11;1-9 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2021;54.2;Blanc;3.0;0.91;0.95;8.9;0.065;28;115;0.9946;3.44;1.29;14.1;8;7;0.48;3-5 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2017;116.43;Blanc;7.4;1.1;0.53;3.2;0.13;31;343;0.9981;3.51;0.38;12.8;7;11;1.1;3-11 ans
+Bodega Viura de Rioja;Rioja;Viura;2013;13.38;Blanc;5.1;0.42;0.95;12.4;0.017;30;71;0.9892;3.66;0.66;11.8;4;10;0.49;3-5 ans
+Clos Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2018;41.25;Blanc;5.4;1.18;0.15;13.3;0.089;145;375;0.993;3.47;0.72;10.4;6;10;0.48;2-7 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2015;63.33;Blanc;5.1;0.34;0.93;11.5;0.047;79;98;0.9887;3.77;1.0;12.1;7;10;1.13;3-11 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2021;115.65;Blanc;4.9;1.08;0.92;3.7;0.024;26;341;0.9997;3.23;0.26;9.3;6;9;0.25;3-6 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2021;141.86;Blanc;7.1;1.15;0.12;18.4;0.04;76;329;0.9853;2.9;0.77;14.1;7;11;0.99;2-12 ans
+Bodega Viosinho de Douro;Douro;Viosinho;2010;131.19;Blanc;6.5;0.64;0.76;6.4;0.069;85;350;0.9864;3.77;1.11;14.3;9;9;0.82;3-6 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2017;90.39;Blanc;4.5;0.33;0.84;10.2;0.143;26;299;0.9961;3.58;0.92;12.8;6;8;0.99;2-7 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2017;86.16;Blanc;6.4;0.45;0.34;18.1;0.072;96;398;0.9937;2.9;0.88;10.2;7;9;1.01;2-8 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2013;123.71;Blanc;4.8;0.83;0.21;5.6;0.081;57;50;0.9889;3.14;1.12;14.0;9;11;0.64;3-11 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2013;71.82;Blanc;8.7;0.71;0.27;11.4;0.109;114;106;1.0009;3.19;0.96;11.5;8;9;1.26;1-12 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2016;149.66;Blanc;6.5;0.88;0.7;13.9;0.013;148;100;0.9951;3.58;1.09;11.5;8;11;1.4;2-7 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2015;25.57;Blanc;4.8;1.11;0.71;16.8;0.033;53;124;0.9956;3.17;0.25;10.9;5;6;0.29;2-9 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2020;138.81;Blanc;6.3;0.9;0.56;3.6;0.011;129;210;0.9947;3.55;1.28;9.3;5;12;1.19;3-11 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2010;30.85;Blanc;7.8;0.16;0.7;4.7;0.072;112;120;0.9944;3.15;0.57;12.6;7;12;1.43;3-12 ans
+Château Aligoté de Bourgogne;Bourgogne;Aligoté;2021;32.79;Blanc;4.4;0.93;0.63;14.1;0.02;111;277;0.9987;3.45;1.05;10.7;6;6;0.79;2-9 ans
+Estate Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2022;87.32;Blanc;9.0;0.57;0.2;1.8;0.077;60;248;0.996;3.54;1.19;14.3;9;11;1.38;2-7 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2019;74.62;Blanc;6.4;1.16;0.65;18.4;0.032;16;102;0.9885;2.95;1.34;13.8;8;6;1.03;2-12 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2021;31.67;Blanc;4.7;0.19;0.88;4.7;0.108;125;123;0.9921;3.08;0.57;12.3;4;7;0.75;2-8 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2012;95.29;Blanc;7.8;0.98;0.42;13.8;0.024;98;72;1.0014;3.33;0.72;9.7;9;6;0.47;3-9 ans
+Clos Pinot Gris de Alsace;Alsace;Pinot Gris;2018;22.63;Blanc;7.3;0.36;0.15;2.8;0.071;8;261;0.9902;3.34;1.02;14.5;4;12;0.42;3-10 ans
+Estate Semillon de Hunter Valley;Hunter Valley;Semillon;2019;88.87;Blanc;5.4;0.22;0.72;17.0;0.109;60;345;1.0042;3.76;1.37;10.7;9;6;0.36;3-8 ans
+Clos Melon de Bourgogne de Loire;Loire;Melon de Bourgogne;2016;53.97;Blanc;8.4;0.2;0.68;18.1;0.107;96;234;0.9988;3.05;0.46;11.9;4;9;0.6;3-12 ans
+Bodega Rabigato de Douro;Douro;Rabigato;2016;139.76;Blanc;4.8;0.17;0.91;8.3;0.017;137;155;0.9881;3.73;1.32;11.9;5;9;0.29;1-5 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2012;34.22;Blanc;4.6;0.9;0.92;1.3;0.057;83;345;0.9874;3.06;1.01;12.7;4;10;1.08;3-8 ans
+Clos Riesling de Alsace;Alsace;Riesling;2011;48.24;Blanc;4.5;0.88;0.36;11.5;0.073;40;233;0.9933;3.69;0.99;12.5;4;9;0.12;2-7 ans
+Estate Semillon de Hunter Valley;Hunter Valley;Semillon;2010;133.28;Blanc;6.4;0.84;0.22;4.8;0.044;126;348;0.9914;3.04;1.25;9.8;5;12;1.47;1-7 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2016;54.56;Blanc;5.0;0.71;0.72;0.7;0.058;50;332;1.0002;3.32;1.47;11.7;8;9;0.25;2-6 ans
+Domaine Gewurztraminer de Alsace;Alsace;Gewurztraminer;2010;104.65;Blanc;8.2;0.4;0.89;7.1;0.146;93;163;0.9927;3.58;1.14;11.4;9;12;1.15;1-8 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2010;71.34;Blanc;4.4;1.16;0.29;12.3;0.108;55;387;1.0005;3.21;0.86;9.6;4;7;0.55;2-11 ans
+Domaine Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2022;37.51;Blanc;4.5;1.17;0.49;19.8;0.036;110;302;0.9997;3.45;0.89;12.7;9;8;1.4;3-12 ans
+Clos Melon de Bourgogne de Loire;Loire;Melon de Bourgogne;2014;63.77;Blanc;5.6;0.85;0.84;14.3;0.012;134;172;0.9881;3.73;1.23;9.4;5;11;0.95;1-9 ans
+Estate Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2018;116.57;Blanc;3.0;0.47;0.91;8.5;0.015;88;232;0.9994;3.4;1.47;13.4;7;7;0.57;2-8 ans
+Estate Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2021;95.06;Blanc;4.4;1.2;0.23;10.9;0.054;25;142;0.9878;3.05;0.63;13.3;9;8;0.5;3-10 ans
+Estate Semillon de Hunter Valley;Hunter Valley;Semillon;2014;148.78;Blanc;3.5;0.47;0.15;0.6;0.083;148;373;1.0009;3.32;0.63;10.5;8;8;0.49;1-8 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2011;115.74;Blanc;5.6;0.37;0.21;17.9;0.124;34;59;0.9935;2.97;1.23;9.3;7;7;1.17;2-7 ans
+Clos Chenin Blanc de Loire;Loire;Chenin Blanc;2015;96.04;Blanc;6.1;0.99;0.26;14.0;0.025;27;287;0.988;3.18;0.78;9.3;6;12;0.26;1-6 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2012;88.67;Blanc;7.1;0.98;0.96;9.6;0.039;60;191;0.9929;3.27;1.05;10.5;7;8;0.21;1-11 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2013;127.78;Blanc;6.2;1.04;0.7;17.2;0.096;11;33;0.9852;3.64;0.59;13.7;9;7;0.95;2-9 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2010;40.48;Blanc;7.4;1.03;0.36;5.8;0.096;135;205;0.9886;2.96;1.32;11.3;8;8;0.94;3-5 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2020;26.76;Blanc;7.4;0.54;0.4;12.5;0.066;101;85;0.9986;3.27;0.55;9.8;5;7;1.37;2-7 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2020;55.31;Blanc;3.0;0.27;0.75;10.0;0.076;139;235;0.9994;3.49;0.52;14.0;6;7;1.18;1-12 ans
+Clos Chenin Blanc de Loire;Loire;Chenin Blanc;2021;139.58;Blanc;4.9;0.63;0.27;7.7;0.032;102;73;1.0003;3.15;1.19;9.6;6;10;0.29;2-7 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2022;92.21;Blanc;9.0;0.64;0.58;9.7;0.143;45;244;0.995;3.19;0.3;12.0;5;12;1.07;2-10 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2021;138.32;Blanc;7.6;0.32;0.79;17.0;0.045;73;61;0.9885;3.35;0.9;9.4;9;8;0.44;3-10 ans
+Domaine Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2011;106.48;Blanc;7.9;0.12;0.81;17.3;0.099;14;81;0.9893;3.56;1.47;12.8;8;11;0.24;2-12 ans
+Vineyard Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2017;114.59;Blanc;3.9;0.45;0.27;1.5;0.084;141;92;1.0007;3.33;0.52;11.2;9;12;1.17;1-12 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2021;149.15;Blanc;7.3;0.33;0.99;16.8;0.137;97;290;0.9973;3.71;1.45;11.0;5;7;1.36;1-11 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2022;98.05;Blanc;6.5;0.41;0.2;14.2;0.023;12;106;1.0005;3.79;0.97;13.3;5;10;1.41;2-5 ans
+Finca Viosinho de Douro;Douro;Viosinho;2010;138.22;Blanc;7.0;0.8;0.79;19.9;0.065;39;243;0.9947;3.23;1.45;13.5;7;11;0.98;2-6 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2017;8.14;Blanc;7.4;1.0;0.53;17.7;0.092;145;63;0.9882;3.74;0.27;13.4;5;6;0.49;2-6 ans
+Viña Viura de Rioja;Rioja;Viura;2019;58.09;Blanc;3.2;0.87;0.8;11.4;0.145;62;108;0.9941;3.16;0.56;9.1;7;10;0.65;1-8 ans
+Château Chenin Blanc de Loire;Loire;Chenin Blanc;2021;84.37;Blanc;8.1;1.09;0.81;3.3;0.11;108;371;0.9888;3.16;0.64;12.0;5;7;1.24;2-6 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2021;136.78;Blanc;4.9;0.93;0.17;7.5;0.149;27;203;0.9966;3.28;0.55;14.0;9;7;0.83;3-11 ans
+Domaine Gewurztraminer de Alsace;Alsace;Gewurztraminer;2016;46.68;Blanc;7.8;0.14;0.56;1.7;0.131;123;199;0.9913;3.1;1.36;11.3;6;10;0.7;3-5 ans
+Château Chenin Blanc de Loire;Loire;Chenin Blanc;2016;143.52;Blanc;4.4;0.83;0.78;14.4;0.134;106;203;0.9891;3.41;0.4;12.2;9;10;1.25;2-7 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2022;61.2;Blanc;8.6;0.81;0.49;15.7;0.054;23;224;0.9923;3.72;0.35;10.8;9;11;1.41;2-7 ans
+Clos Chenin Blanc de Loire;Loire;Chenin Blanc;2020;27.22;Blanc;6.0;0.53;0.52;15.5;0.12;93;297;0.9861;3.12;0.36;13.5;6;6;0.84;1-9 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2022;117.85;Blanc;4.3;0.28;0.69;2.0;0.142;54;243;0.9859;3.22;0.23;12.5;8;9;0.23;1-12 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2018;90.62;Blanc;4.3;0.49;0.52;15.1;0.014;128;191;0.9941;3.52;1.15;13.5;9;9;1.49;1-7 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2022;17.69;Blanc;4.4;0.28;0.68;15.1;0.112;78;274;1.0033;2.94;0.49;11.1;9;12;1.32;3-9 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2018;74.38;Blanc;6.5;0.36;0.81;6.3;0.043;128;134;0.9901;3.24;0.45;11.8;7;10;0.45;1-6 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2019;49.89;Blanc;5.4;0.97;0.17;12.8;0.114;108;400;0.9916;3.28;0.38;11.0;6;11;0.37;3-6 ans
+Estate Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2010;110.64;Blanc;7.3;0.84;0.46;12.5;0.122;122;302;0.9986;2.96;1.31;11.5;5;6;1.43;3-5 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2018;111.66;Blanc;4.6;0.35;0.38;2.1;0.077;50;289;0.9878;3.43;0.69;13.6;9;12;0.22;2-11 ans
+Clos Chardonnay de Bourgogne;Bourgogne;Chardonnay;2013;118.47;Blanc;7.2;0.64;0.22;8.0;0.074;132;385;0.9989;2.97;0.34;11.0;8;6;1.11;2-12 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2013;65.75;Blanc;4.0;0.28;0.58;17.2;0.081;123;137;0.9956;3.68;0.95;12.6;8;7;0.85;3-9 ans
+Viña Rabigato de Douro;Douro;Rabigato;2020;145.84;Blanc;5.7;0.61;0.71;18.0;0.072;47;207;0.9881;3.24;1.01;13.0;7;9;0.94;3-7 ans
+Estate Semillon de Hunter Valley;Hunter Valley;Semillon;2018;116.79;Blanc;7.6;0.76;0.86;8.0;0.013;113;101;0.9902;3.24;0.28;10.0;4;12;0.98;3-8 ans
+Viña Rabigato de Douro;Douro;Rabigato;2013;66.38;Blanc;7.1;0.64;0.26;13.6;0.012;115;31;0.9903;3.09;1.02;10.6;4;12;0.12;1-11 ans
+Finca Rabigato de Douro;Douro;Rabigato;2018;137.75;Blanc;7.0;1.08;0.23;17.0;0.056;127;244;1.0035;3.45;1.11;13.6;7;12;1.4;1-10 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2011;35.04;Blanc;5.1;1.03;0.25;5.7;0.054;132;324;0.9942;3.38;0.93;13.6;8;9;0.16;3-12 ans
+Clos Chardonnay de Bourgogne;Bourgogne;Chardonnay;2016;131.68;Blanc;5.4;1.02;0.48;16.2;0.073;56;61;1.0042;3.21;1.23;10.2;4;9;0.35;3-7 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2014;117.89;Blanc;8.9;0.89;0.3;15.7;0.045;89;381;1.0009;3.21;0.47;12.2;8;8;1.03;2-5 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2019;135.23;Blanc;5.6;0.28;0.91;7.9;0.015;42;30;0.9912;3.44;0.3;12.5;9;11;1.2;1-6 ans
+Clos Pinot Gris de Alsace;Alsace;Pinot Gris;2013;36.39;Blanc;7.7;0.91;0.63;0.9;0.027;52;185;0.9918;3.62;0.68;9.1;4;11;1.25;3-7 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2017;137.5;Blanc;8.2;0.76;0.27;2.3;0.065;92;277;0.9951;3.76;0.72;11.4;5;9;0.61;2-6 ans
+Estate Semillon de Hunter Valley;Hunter Valley;Semillon;2015;132.3;Blanc;7.7;0.63;0.58;0.5;0.063;78;143;0.9944;3.58;0.89;9.8;5;7;0.43;1-11 ans
+Viña Viosinho de Douro;Douro;Viosinho;2021;72.61;Blanc;7.9;0.11;0.41;15.7;0.021;62;252;1.0017;2.93;1.23;9.1;4;7;1.26;1-8 ans
+Estate Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2020;57.23;Blanc;8.7;0.62;0.58;10.9;0.019;105;78;0.996;3.39;1.44;9.9;6;12;1.38;3-5 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2014;18.35;Blanc;5.6;0.38;0.93;12.3;0.068;125;199;1.002;3.04;0.84;10.2;9;6;1.1;2-11 ans
+Château Melon de Bourgogne de Loire;Loire;Melon de Bourgogne;2010;103.2;Blanc;8.1;0.56;0.36;19.1;0.037;13;241;0.9889;3.64;1.31;9.6;6;12;0.94;2-8 ans
+Finca Viosinho de Douro;Douro;Viosinho;2022;81.91;Blanc;6.5;0.62;0.61;12.7;0.127;150;366;1.0001;3.43;0.45;13.9;8;12;1.12;2-9 ans
+Clos Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2021;131.86;Blanc;5.8;0.48;0.6;10.8;0.049;131;342;0.9895;3.49;0.98;12.4;7;11;0.18;1-12 ans
+Château Riesling de Alsace;Alsace;Riesling;2015;33.37;Blanc;6.8;0.97;0.82;2.7;0.122;44;88;1.0022;3.52;0.52;12.5;5;12;1.11;3-5 ans
+Clos Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2017;108.15;Blanc;8.8;1.07;0.13;1.2;0.025;24;267;0.9887;3.33;0.75;10.0;6;6;0.12;3-6 ans
+Domaine Riesling de Alsace;Alsace;Riesling;2014;44.25;Blanc;7.4;0.97;0.86;16.3;0.041;130;152;0.9918;2.96;0.5;12.1;6;7;1.2;1-5 ans
+Estate Riesling de Barossa;Barossa;Riesling;2011;138.07;Blanc;3.1;0.55;0.4;10.5;0.083;114;82;0.9976;3.36;0.91;9.0;4;8;0.6;1-9 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2014;66.31;Blanc;7.9;1.07;0.59;2.4;0.055;71;92;0.994;3.65;0.27;9.6;9;11;0.36;1-5 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2015;129.9;Blanc;7.8;0.92;0.9;11.7;0.137;70;202;0.9998;3.33;0.26;11.1;9;7;1.49;3-12 ans
+Clos Riesling de Alsace;Alsace;Riesling;2019;97.47;Blanc;6.8;1.2;0.63;16.4;0.064;66;299;0.9917;3.03;0.21;9.2;9;9;1.38;2-12 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2022;54.11;Blanc;6.2;0.57;0.88;8.0;0.136;86;80;0.9886;2.94;0.37;11.8;4;6;0.71;2-10 ans
+Clos Gewurztraminer de Alsace;Alsace;Gewurztraminer;2018;110.3;Blanc;4.1;0.48;0.58;8.5;0.043;73;178;1.0012;3.08;0.99;11.1;7;10;0.43;3-12 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2017;94.42;Blanc;4.2;0.48;0.47;18.6;0.097;116;358;1.0004;3.41;0.76;11.3;6;6;0.97;2-12 ans
+Domaine Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2010;80.11;Blanc;8.7;0.45;0.43;18.0;0.081;124;274;0.996;3.44;1.19;10.3;4;12;0.27;1-12 ans
+Domaine Pinot Gris de Alsace;Alsace;Pinot Gris;2016;142.52;Blanc;8.5;1.08;0.97;8.0;0.11;54;392;0.9981;3.6;0.55;9.4;9;7;0.4;3-7 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2022;125.14;Blanc;5.0;1.13;0.43;17.1;0.079;24;361;0.9959;3.41;0.69;10.4;7;6;0.8;3-6 ans
+Château Chardonnay de Bourgogne;Bourgogne;Chardonnay;2011;101.17;Blanc;8.5;0.81;0.87;17.7;0.067;29;326;0.9971;3.09;0.36;13.7;5;10;1.33;2-7 ans
+Château Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2010;39.74;Blanc;6.2;0.9;0.45;11.2;0.042;34;165;0.9914;3.11;1.22;12.7;9;7;1.03;1-7 ans
+Château Aligoté de Bourgogne;Bourgogne;Aligoté;2018;58.5;Blanc;8.3;0.78;0.93;4.3;0.093;116;274;0.987;3.19;0.97;10.2;9;10;1.37;3-12 ans
+Château Gewurztraminer de Alsace;Alsace;Gewurztraminer;2020;58.91;Blanc;6.8;0.92;0.48;19.4;0.032;148;394;0.9931;3.51;1.31;10.1;6;6;1.25;2-12 ans
+Domaine Gewurztraminer de Alsace;Alsace;Gewurztraminer;2011;148.31;Blanc;4.7;0.89;0.34;2.6;0.146;75;166;0.9931;3.15;0.33;14.2;4;9;0.75;1-8 ans
+Clos Pinot Gris de Alsace;Alsace;Pinot Gris;2017;130.55;Blanc;8.0;0.73;0.44;15.0;0.084;10;142;1.0021;3.23;0.61;11.8;7;9;0.94;2-11 ans
+Estate Riesling de Barossa;Barossa;Riesling;2020;131.58;Blanc;4.8;0.61;0.67;3.2;0.069;123;253;0.9868;3.01;0.3;10.9;7;11;0.3;2-9 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2018;119.45;Blanc;7.8;0.41;0.24;14.6;0.097;85;146;0.9966;3.65;0.36;10.3;5;8;1.07;1-10 ans
+Clos Sylvaner de Alsace;Alsace;Sylvaner;2011;73.35;Blanc;4.5;1.01;0.36;14.7;0.094;65;288;1.0037;3.59;1.27;9.4;8;6;0.54;1-6 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2010;71.01;Blanc;5.8;0.98;0.89;4.4;0.012;41;67;0.988;2.97;0.56;10.1;8;11;1.24;3-8 ans
+Domaine Pinot Gris de Alsace;Alsace;Pinot Gris;2021;112.31;Blanc;5.4;0.99;0.98;16.7;0.057;134;50;0.986;3.6;0.32;10.8;6;7;0.29;2-5 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2021;19.81;Blanc;7.6;0.82;0.73;10.5;0.048;23;236;1.002;2.98;1.22;14.4;5;10;0.98;2-5 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2010;115.74;Blanc;8.8;1.14;0.98;6.0;0.103;21;213;0.9942;3.18;0.65;10.9;9;6;0.43;1-5 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2021;125.99;Blanc;7.5;0.21;0.78;15.5;0.116;139;232;0.9852;3.09;0.53;13.8;8;7;0.93;1-6 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2020;121.16;Blanc;4.9;0.5;0.74;8.5;0.016;92;318;0.9974;3.44;0.84;11.0;8;8;0.39;3-7 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2015;50.85;Blanc;7.1;1.04;0.98;18.9;0.059;131;83;0.9995;3.15;0.45;12.2;4;7;1.25;2-6 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2013;95.72;Blanc;4.1;1.03;0.92;6.0;0.043;78;119;0.9983;3.77;1.04;9.1;6;10;0.8;3-7 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2015;138.16;Blanc;6.4;0.73;0.47;1.5;0.023;62;274;1.0013;3.74;0.72;11.4;5;7;0.85;1-6 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2013;93.47;Blanc;6.5;0.83;0.52;6.3;0.049;26;305;0.9875;3.65;1.41;14.5;5;10;0.79;1-8 ans
+Clos Gewurztraminer de Alsace;Alsace;Gewurztraminer;2022;41.09;Blanc;5.2;0.84;0.37;10.4;0.077;110;128;0.996;2.96;1.0;11.8;9;8;0.71;2-6 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2012;35.56;Blanc;4.4;0.5;0.58;6.7;0.012;121;387;1.0035;3.62;1.02;11.0;4;10;0.24;2-8 ans
+Estate Riesling de Barossa;Barossa;Riesling;2016;8.96;Blanc;8.3;0.29;0.52;13.6;0.053;99;132;0.9859;3.43;1.23;10.2;8;8;1.01;2-11 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2017;39.23;Blanc;6.6;0.78;0.43;16.3;0.017;150;304;1.0001;3.61;0.24;9.1;8;6;0.19;3-5 ans
+Bodega Viosinho de Douro;Douro;Viosinho;2016;23.36;Blanc;3.1;0.49;0.14;5.7;0.119;29;96;0.9883;3.33;1.2;10.9;7;8;1.16;1-5 ans
+Clos Chardonnay de Bourgogne;Bourgogne;Chardonnay;2011;13.05;Blanc;7.0;0.24;0.57;16.2;0.044;102;392;0.9962;3.11;1.32;13.5;6;9;1.05;1-9 ans
+Bodega Viura de Rioja;Rioja;Viura;2020;109.82;Blanc;3.4;0.93;0.97;1.3;0.096;17;177;0.9934;3.0;1.46;9.6;7;9;0.26;1-5 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2012;52.62;Blanc;4.0;0.86;0.43;2.6;0.125;60;227;0.9926;3.52;0.63;11.4;5;11;0.78;3-5 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2018;18.68;Blanc;7.0;1.15;0.13;9.8;0.132;35;33;0.9942;3.71;0.24;11.4;9;12;0.74;3-5 ans
+Domaine Sylvaner de Alsace;Alsace;Sylvaner;2018;35.84;Blanc;7.1;0.43;0.37;18.9;0.092;130;144;0.9882;3.35;0.43;9.2;6;8;0.7;1-7 ans
+Château Chardonnay de Bourgogne;Bourgogne;Chardonnay;2013;44.79;Blanc;3.4;0.11;0.83;5.0;0.085;116;284;0.9982;3.2;1.39;9.3;9;6;0.94;2-7 ans
+Clos Sylvaner de Alsace;Alsace;Sylvaner;2011;138.22;Blanc;7.1;0.32;0.34;17.6;0.017;86;266;0.9881;3.53;1.31;11.8;5;9;1.42;1-8 ans
+Château Chardonnay de Bourgogne;Bourgogne;Chardonnay;2022;137.16;Blanc;3.8;1.01;0.9;3.7;0.022;50;150;0.9889;3.23;1.23;11.8;5;6;0.39;3-8 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2011;99.84;Blanc;3.5;0.92;0.87;0.7;0.144;17;348;0.9868;3.54;1.21;13.2;8;10;0.56;3-10 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2016;96.56;Blanc;3.2;0.22;0.41;15.7;0.033;69;55;0.9914;3.11;0.45;12.8;7;12;1.01;3-10 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2012;31.79;Blanc;3.9;1.03;0.83;16.9;0.058;105;39;0.9958;2.9;0.37;9.3;7;6;0.61;2-10 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2021;111.92;Blanc;5.8;1.1;0.8;8.3;0.074;59;301;1.0017;3.77;0.61;11.6;8;12;1.05;3-5 ans
+Château Chenin Blanc de Loire;Loire;Chenin Blanc;2012;33.03;Blanc;5.8;0.67;0.41;0.8;0.1;143;200;0.9868;3.38;0.84;13.7;4;9;1.34;2-12 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2011;39.55;Blanc;3.0;0.2;0.2;1.0;0.045;79;53;0.998;3.41;0.55;13.6;8;8;0.79;3-11 ans
+Bodega Viosinho de Douro;Douro;Viosinho;2020;120.51;Blanc;7.1;0.32;0.26;5.9;0.047;29;139;0.989;3.19;1.1;9.9;8;7;0.62;3-11 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2017;45.39;Blanc;5.3;0.8;0.34;7.1;0.127;90;264;1.0011;3.54;0.27;14.1;7;6;1.26;3-12 ans
+Domaine Aligoté de Bourgogne;Bourgogne;Aligoté;2011;135.55;Blanc;7.3;0.21;0.83;4.5;0.089;53;227;0.9927;3.21;1.13;9.5;6;6;0.72;1-10 ans
+Domaine Aligoté de Bourgogne;Bourgogne;Aligoté;2016;92.11;Blanc;8.0;0.15;0.11;16.7;0.031;61;268;1.0029;3.12;1.12;14.2;7;11;1.27;1-8 ans
+Estate Riesling de Barossa;Barossa;Riesling;2022;15.08;Blanc;3.3;0.4;0.6;5.0;0.047;132;161;0.9858;3.1;1.22;13.6;8;11;1.28;2-5 ans
+Clos Aligoté de Bourgogne;Bourgogne;Aligoté;2017;122.5;Blanc;8.9;0.4;0.89;1.6;0.081;119;297;0.9963;3.51;1.14;14.0;8;11;0.3;2-10 ans
+Clos Sylvaner de Alsace;Alsace;Sylvaner;2022;55.28;Blanc;5.0;0.88;0.51;18.6;0.064;137;386;0.9986;2.96;0.91;10.1;8;9;0.4;2-7 ans
+Estate Semillon de Hunter Valley;Hunter Valley;Semillon;2016;147.23;Blanc;5.8;0.2;0.22;17.6;0.065;121;120;0.9899;3.72;0.9;11.4;9;11;0.45;1-12 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2015;117.56;Blanc;3.2;1.19;0.67;18.3;0.121;38;102;0.9913;3.33;0.64;9.0;5;11;0.32;1-5 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2015;117.15;Blanc;5.1;1.0;0.82;2.5;0.02;142;274;0.992;3.74;0.99;14.0;9;7;0.15;2-8 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2014;97.46;Blanc;6.6;0.42;0.81;10.4;0.081;19;53;0.9947;3.13;1.2;10.1;6;6;0.76;1-7 ans
+Finca Viosinho de Douro;Douro;Viosinho;2015;23.3;Blanc;5.0;0.8;0.22;7.3;0.117;33;355;0.9868;3.09;1.07;11.7;7;12;1.09;1-8 ans
+Viña Viura de Rioja;Rioja;Viura;2021;144.32;Blanc;3.2;0.9;0.66;2.7;0.057;99;355;0.9926;3.05;0.22;10.8;5;11;0.84;2-11 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2012;125.4;Blanc;8.5;0.49;0.91;3.3;0.131;82;96;0.9932;2.98;1.01;11.3;8;12;1.42;2-9 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2013;84.57;Blanc;4.8;0.59;0.82;11.3;0.089;141;295;0.9859;3.6;1.02;10.2;4;8;0.16;3-7 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2021;107.46;Blanc;7.2;0.58;0.79;0.8;0.065;13;132;0.9875;3.27;1.18;12.4;9;12;1.07;2-9 ans
+Château Sylvaner de Alsace;Alsace;Sylvaner;2021;15.77;Blanc;4.7;0.5;0.8;3.5;0.087;77;63;0.9964;3.54;0.88;11.0;9;7;0.75;3-6 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2020;99.27;Blanc;3.5;0.48;0.7;11.0;0.109;9;276;0.987;3.25;0.29;11.2;8;10;0.15;2-9 ans
+Domaine Chardonnay de Bourgogne;Bourgogne;Chardonnay;2017;123.55;Blanc;4.2;0.76;0.6;14.1;0.082;75;295;1.0049;2.98;1.46;12.4;9;7;0.68;3-5 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2011;48.86;Blanc;8.9;0.21;0.9;2.6;0.119;145;159;0.9899;3.16;1.33;14.3;5;12;0.81;1-8 ans
+Clos Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2018;148.58;Blanc;4.4;1.09;0.6;12.8;0.116;131;52;0.9855;2.93;0.84;9.1;4;11;0.17;2-11 ans
+Domaine Aligoté de Bourgogne;Bourgogne;Aligoté;2012;46.12;Blanc;6.6;0.55;0.54;16.6;0.096;60;101;0.9973;3.67;1.45;12.4;5;8;0.69;2-5 ans
+Estate Semillon de Hunter Valley;Hunter Valley;Semillon;2021;73.61;Blanc;6.9;0.65;0.13;4.4;0.058;126;75;0.9915;3.23;1.4;11.3;7;9;0.32;3-6 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2012;103.46;Blanc;8.6;0.54;0.8;2.4;0.012;59;129;0.998;3.0;0.33;12.8;9;10;1.13;3-7 ans
+Clos Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2011;138.49;Blanc;4.8;0.95;0.94;2.5;0.069;119;63;0.993;3.05;1.25;12.7;6;11;0.33;2-12 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2012;40.21;Blanc;8.3;0.81;0.66;8.2;0.096;131;50;1.0049;3.07;1.17;10.9;7;10;1.43;2-11 ans
+Château Aligoté de Bourgogne;Bourgogne;Aligoté;2015;84.0;Blanc;3.8;0.25;0.71;16.5;0.067;26;266;0.9902;3.79;0.8;9.1;7;7;0.42;1-8 ans
+Viña Viosinho de Douro;Douro;Viosinho;2014;18.56;Blanc;3.5;0.85;0.27;13.9;0.085;53;290;0.9985;3.15;1.38;9.0;5;10;1.0;2-5 ans
+Domaine Melon de Bourgogne de Loire;Loire;Melon de Bourgogne;2010;14.21;Blanc;5.8;1.01;0.13;12.5;0.023;13;307;0.9899;3.17;1.27;10.9;5;12;0.87;3-6 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2018;59.62;Blanc;5.2;0.35;0.9;1.0;0.021;140;283;0.9915;3.61;0.32;12.4;4;12;1.25;3-5 ans
+Estate Chardonnay de Californie;Californie;Chardonnay;2012;105.16;Blanc;7.7;0.57;0.92;16.0;0.106;19;116;0.9957;2.91;1.08;12.0;7;9;1.09;1-10 ans
+Finca Viura de Rioja;Rioja;Viura;2010;63.71;Blanc;3.3;0.63;0.35;4.8;0.125;148;103;0.9944;3.66;1.28;12.6;6;7;0.33;1-9 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2015;29.72;Blanc;4.2;0.34;0.82;8.4;0.027;95;78;0.9967;3.25;0.91;9.8;6;11;0.71;3-6 ans
+Estate Riesling de Barossa;Barossa;Riesling;2012;148.98;Blanc;5.8;0.13;0.58;17.3;0.021;22;112;0.9866;3.18;0.7;11.9;7;11;1.29;1-10 ans
+Château Chardonnay de Bourgogne;Bourgogne;Chardonnay;2012;97.34;Blanc;3.7;0.9;0.24;4.0;0.08;121;188;0.9932;3.39;1.44;10.6;5;6;0.72;3-7 ans
+Estate Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2020;79.51;Blanc;6.7;0.43;0.65;12.1;0.043;122;288;0.9895;3.12;1.04;14.3;9;10;0.12;1-7 ans
+Domaine Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2016;148.13;Blanc;5.4;0.76;0.99;3.3;0.055;79;235;1.0042;3.24;0.52;13.0;9;6;0.87;2-10 ans
+Château Melon de Bourgogne de Loire;Loire;Melon de Bourgogne;2014;141.95;Blanc;5.8;1.02;0.52;8.9;0.098;134;236;1.0042;3.76;0.86;9.6;6;6;0.23;2-8 ans
+Finca Viosinho de Douro;Douro;Viosinho;2019;123.8;Blanc;5.5;0.69;0.96;12.5;0.09;45;50;0.9987;3.16;0.66;10.7;7;7;0.14;1-10 ans
+Finca Viura de Rioja;Rioja;Viura;2016;108.44;Blanc;5.4;0.19;0.48;18.1;0.092;147;347;0.9879;3.69;1.32;12.0;7;11;0.6;3-12 ans
+Estate Chardonnay de Californie;Californie;Chardonnay;2014;135.41;Blanc;8.4;0.19;0.47;4.5;0.061;124;391;1.0047;3.78;0.39;14.2;6;8;1.17;3-6 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2018;57.6;Blanc;6.0;1.19;0.89;9.0;0.135;53;322;0.9927;3.18;1.14;10.1;6;10;0.55;2-12 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2012;23.44;Blanc;7.2;0.33;0.37;0.6;0.012;95;112;0.9951;3.51;1.3;10.0;8;7;1.14;2-6 ans
+Estate Riesling de Barossa;Barossa;Riesling;2018;97.52;Blanc;3.3;1.09;0.14;19.2;0.097;124;80;0.9973;3.67;0.3;9.7;5;11;1.29;2-5 ans
+Bodega Viosinho de Douro;Douro;Viosinho;2020;54.82;Blanc;5.2;0.18;0.4;12.6;0.066;147;319;0.9965;3.06;0.86;12.6;4;7;0.92;1-12 ans
+Clos Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2010;132.55;Blanc;3.8;0.4;0.76;10.0;0.084;122;267;0.9894;3.15;0.32;13.7;7;6;0.47;2-6 ans
+Viña Rabigato de Douro;Douro;Rabigato;2015;32.35;Blanc;6.2;0.44;0.19;3.4;0.147;36;129;0.9999;3.77;0.4;12.6;7;10;0.72;2-9 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2013;143.72;Blanc;4.4;1.13;0.92;19.0;0.053;63;277;0.9932;2.99;1.35;10.9;7;10;0.75;3-11 ans
+Domaine Aligoté de Bourgogne;Bourgogne;Aligoté;2015;136.11;Blanc;8.8;0.11;0.7;8.8;0.091;77;111;0.9883;3.11;1.36;10.2;7;11;0.6;2-12 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2010;27.66;Blanc;7.1;1.02;0.38;17.8;0.049;122;94;1.0029;3.15;0.22;11.1;4;10;1.13;1-11 ans
+Domaine Gewurztraminer de Alsace;Alsace;Gewurztraminer;2021;112.68;Blanc;6.3;0.7;0.35;3.4;0.025;80;305;1.0049;3.68;1.44;11.9;4;12;0.1;2-6 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2012;11.31;Blanc;7.6;0.44;0.12;18.7;0.061;120;197;1.0004;3.74;0.64;12.0;9;7;1.07;2-7 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2016;67.71;Blanc;6.9;0.61;0.7;17.3;0.095;17;213;1.0045;3.18;1.49;10.1;7;9;0.71;3-9 ans
+Finca Viosinho de Douro;Douro;Viosinho;2011;26.9;Blanc;8.5;1.17;0.78;7.8;0.036;27;194;0.9859;3.08;0.38;10.2;6;9;1.03;1-9 ans
+Vineyard Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2016;113.48;Blanc;4.8;0.63;0.61;17.0;0.111;33;291;1.003;3.58;0.43;10.0;6;8;0.32;2-11 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2012;110.02;Blanc;3.8;0.29;0.27;18.3;0.018;116;155;0.9853;3.79;0.52;11.9;5;10;1.02;1-5 ans
+Estate Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2011;113.03;Blanc;4.9;0.34;0.83;6.1;0.136;57;179;0.9905;3.07;0.99;12.8;6;10;0.43;3-9 ans
+Château Chardonnay de Bourgogne;Bourgogne;Chardonnay;2021;17.07;Blanc;5.7;0.45;0.8;3.7;0.141;44;167;0.9918;3.33;0.63;13.7;9;11;1.14;2-7 ans
+Château Aligoté de Bourgogne;Bourgogne;Aligoté;2011;137.73;Blanc;7.4;0.17;0.29;0.5;0.143;86;38;0.9926;3.26;1.26;12.4;7;6;0.75;2-11 ans
+Estate Chardonnay de Californie;Californie;Chardonnay;2013;56.18;Blanc;3.6;1.03;0.69;11.3;0.146;91;346;1.0044;3.67;1.36;9.5;8;11;0.98;3-6 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2011;92.03;Blanc;5.9;0.75;0.5;5.3;0.076;65;214;1.0035;3.13;0.76;14.5;8;11;0.26;1-12 ans
+Château Chardonnay de Bourgogne;Bourgogne;Chardonnay;2016;108.58;Blanc;6.2;0.19;0.32;14.3;0.064;61;243;0.9876;3.19;1.2;10.3;7;12;0.2;2-8 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2016;127.44;Blanc;5.9;1.07;0.67;6.7;0.114;82;57;0.9886;3.18;0.43;10.2;6;8;0.95;1-10 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2013;105.24;Blanc;7.7;0.37;0.62;3.2;0.069;15;86;0.9873;3.59;1.41;9.6;8;8;1.04;1-11 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2013;113.87;Blanc;6.1;0.86;0.23;11.5;0.069;18;168;0.9906;3.07;0.62;13.9;5;8;0.76;3-6 ans
+Estate Riesling de Barossa;Barossa;Riesling;2016;100.29;Blanc;6.9;0.79;0.84;4.7;0.123;68;243;0.9892;3.06;0.57;13.8;6;6;0.62;3-7 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2018;82.94;Blanc;3.4;0.21;0.62;16.4;0.088;149;128;1.0047;3.42;1.19;9.0;6;6;0.27;2-6 ans
+Clos Chardonnay de Bourgogne;Bourgogne;Chardonnay;2019;58.66;Blanc;6.1;1.11;0.21;8.7;0.08;34;213;0.9953;3.31;0.82;12.2;9;8;0.63;3-12 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2016;137.44;Blanc;8.5;0.38;0.31;2.6;0.073;110;149;0.9995;3.61;0.83;14.0;5;6;1.46;1-5 ans
+Château Chardonnay de Bourgogne;Bourgogne;Chardonnay;2022;131.8;Blanc;8.5;0.71;0.38;18.7;0.024;12;120;0.9939;3.39;0.89;10.9;5;9;0.91;2-6 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2011;137.21;Blanc;8.8;0.49;0.61;13.6;0.109;8;255;0.9988;3.34;0.52;12.1;6;8;0.52;1-8 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2014;23.95;Blanc;7.7;1.04;0.1;8.1;0.086;143;330;0.9905;3.44;1.47;10.7;5;11;0.66;2-7 ans
+Finca Rabigato de Douro;Douro;Rabigato;2021;50.48;Blanc;8.4;0.7;0.31;16.5;0.096;20;112;1.0038;3.29;0.77;13.3;8;8;0.64;1-6 ans
+Château Chardonnay de Bourgogne;Bourgogne;Chardonnay;2013;11.58;Blanc;7.6;0.7;0.51;18.9;0.099;6;352;1.0014;3.52;1.49;9.4;5;11;1.19;2-11 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2022;18.67;Blanc;4.7;1.18;0.79;19.6;0.07;134;75;1.0041;3.14;1.24;9.8;9;7;0.97;3-10 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2010;21.21;Blanc;8.5;1.16;0.82;7.1;0.059;122;370;1.0042;3.38;0.23;13.0;8;11;0.34;1-11 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2016;67.4;Blanc;4.9;0.53;0.42;10.3;0.04;61;205;0.9869;3.69;0.89;10.9;7;12;1.03;2-10 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2019;119.27;Blanc;3.6;0.63;0.41;2.4;0.032;39;108;1.001;3.3;0.9;11.7;7;10;0.99;2-9 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2022;61.04;Blanc;3.3;0.45;0.73;9.1;0.083;46;51;0.9903;3.28;0.45;13.4;9;6;0.38;1-8 ans
+Château Pinot Gris de Alsace;Alsace;Pinot Gris;2017;30.92;Blanc;5.6;0.56;0.94;8.3;0.134;104;348;0.9858;2.99;0.4;11.1;9;8;0.61;2-5 ans
+Domaine Chardonnay de Bourgogne;Bourgogne;Chardonnay;2011;62.01;Blanc;8.3;0.55;0.82;5.6;0.085;126;269;0.9979;3.39;0.83;10.4;5;10;0.99;3-6 ans
+Clos Chenin Blanc de Loire;Loire;Chenin Blanc;2013;114.62;Blanc;6.4;0.89;0.2;8.3;0.075;113;319;0.9918;3.11;1.09;10.7;9;10;0.42;3-12 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2017;53.42;Blanc;4.8;0.32;0.26;18.0;0.026;30;60;0.9867;3.6;1.02;9.9;4;9;0.5;2-5 ans
+Viña Viosinho de Douro;Douro;Viosinho;2011;70.63;Blanc;5.6;0.84;0.51;6.6;0.081;95;370;0.9893;2.95;0.56;11.7;9;12;0.66;3-12 ans
+Domaine Chenin Blanc de Loire;Loire;Chenin Blanc;2021;147.66;Blanc;8.0;1.05;0.16;15.7;0.086;103;353;0.9998;3.18;0.76;11.1;5;6;1.47;3-7 ans
+Finca Viosinho de Douro;Douro;Viosinho;2020;14.58;Blanc;4.7;0.1;0.24;12.9;0.034;142;88;0.988;2.99;0.56;12.5;7;9;1.02;3-7 ans
+Estate Riesling de Barossa;Barossa;Riesling;2015;16.98;Blanc;3.3;0.16;0.41;15.3;0.052;29;41;1.0036;3.34;0.83;9.7;6;7;1.01;1-7 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2013;95.08;Blanc;8.6;0.38;0.47;6.0;0.069;34;56;1.0003;3.19;1.48;12.3;5;10;0.37;3-11 ans
+Estate Chardonnay de Californie;Californie;Chardonnay;2022;52.36;Blanc;3.5;0.47;0.64;3.3;0.15;140;50;0.999;3.33;1.02;12.3;6;8;1.15;3-8 ans
+Château Gewurztraminer de Alsace;Alsace;Gewurztraminer;2015;41.83;Blanc;6.4;1.07;0.41;17.8;0.013;126;71;0.9967;3.79;0.52;12.3;8;6;1.03;1-7 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2019;97.2;Blanc;5.9;0.75;0.3;4.8;0.126;106;236;0.9963;2.95;0.92;11.6;8;11;0.78;3-5 ans
+Bodega Viura de Rioja;Rioja;Viura;2011;148.46;Blanc;7.3;0.11;0.21;18.5;0.107;113;346;0.9888;3.21;1.14;9.5;5;7;1.31;1-6 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2012;111.64;Blanc;6.7;1.05;0.14;9.3;0.127;112;112;1.0013;3.61;0.56;9.1;9;9;0.78;1-8 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2018;76.54;Blanc;3.3;0.79;0.47;4.1;0.049;40;145;0.9938;3.14;0.48;13.4;7;7;0.77;3-6 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2017;21.45;Blanc;8.8;1.11;0.58;8.6;0.125;85;31;1.0014;3.12;0.4;12.3;6;8;0.49;2-8 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2018;45.25;Blanc;3.6;0.62;0.25;9.9;0.054;39;373;0.9949;3.08;0.87;9.9;8;10;0.71;2-9 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2019;12.65;Blanc;5.7;1.12;0.48;10.4;0.023;47;256;0.9992;3.72;0.39;12.0;7;7;1.0;2-9 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2022;105.09;Blanc;3.8;1.08;0.18;17.4;0.099;124;391;0.9974;3.62;0.28;13.2;5;7;0.33;3-11 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2016;106.56;Blanc;4.7;1.12;0.15;4.2;0.057;66;271;0.9893;3.6;0.3;10.4;6;8;0.47;1-5 ans
+Estate Chardonnay de Californie;Californie;Chardonnay;2012;38.79;Blanc;9.0;1.01;0.11;8.4;0.127;29;201;0.9986;3.31;0.45;9.6;7;7;0.53;1-9 ans
+Estate Riesling de Barossa;Barossa;Riesling;2014;106.76;Blanc;6.0;0.17;0.8;4.2;0.033;83;220;0.9939;3.49;1.48;12.0;6;10;1.31;1-9 ans
+Bodega Viosinho de Douro;Douro;Viosinho;2014;48.41;Blanc;5.8;0.88;0.93;6.5;0.081;72;225;0.9934;3.3;0.28;13.9;6;11;0.22;1-6 ans
+Domaine Riesling de Alsace;Alsace;Riesling;2018;146.75;Blanc;8.7;1.19;0.58;19.2;0.02;12;121;0.9922;3.34;1.18;9.2;5;6;1.36;2-11 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2022;44.82;Blanc;4.8;0.89;0.6;15.9;0.013;119;290;0.9877;3.45;1.29;12.1;8;11;1.38;2-8 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2014;126.09;Blanc;7.2;0.12;0.13;11.4;0.031;41;142;1.0033;3.3;1.18;9.2;5;11;1.5;3-9 ans
+Clos Aligoté de Bourgogne;Bourgogne;Aligoté;2019;47.22;Blanc;4.6;0.98;0.86;12.4;0.051;102;83;1.0035;3.37;0.94;9.9;9;11;0.44;1-11 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2012;31.38;Blanc;3.5;0.29;0.43;14.3;0.138;97;278;0.9922;3.71;0.77;12.3;4;7;0.65;1-6 ans
+Estate Riesling de Barossa;Barossa;Riesling;2022;17.76;Blanc;3.7;0.46;0.72;5.1;0.088;87;378;1.0022;3.42;0.43;10.5;5;10;0.41;2-6 ans
+Domaine Chardonnay de Bourgogne;Bourgogne;Chardonnay;2012;128.07;Blanc;7.2;1.04;0.33;1.3;0.049;34;92;0.9922;2.91;0.55;14.1;8;9;1.25;1-7 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2013;81.32;Blanc;6.2;0.52;0.4;19.2;0.15;39;385;1.0045;3.38;0.49;9.4;7;11;0.49;1-5 ans
+Tenuta Vermentino de Toscane;Toscane;Vermentino;2014;23.34;Blanc;8.5;0.89;0.33;1.7;0.055;109;132;1.0001;3.22;0.77;10.4;9;11;0.6;2-10 ans
+Château Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2021;31.34;Blanc;3.7;0.39;0.2;5.4;0.137;45;375;0.9964;3.6;0.76;11.1;9;11;0.62;3-11 ans
+Finca Viosinho de Douro;Douro;Viosinho;2016;71.01;Blanc;4.9;0.89;0.77;0.5;0.034;124;289;0.9989;3.66;1.45;12.3;4;10;1.39;3-11 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2021;119.22;Blanc;8.5;1.05;0.28;6.7;0.076;16;44;0.9935;2.9;1.2;11.0;5;8;0.5;1-5 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2019;128.36;Blanc;5.6;0.72;0.45;16.4;0.137;131;73;0.9904;2.93;0.41;9.3;5;6;0.39;2-11 ans
+Vineyard Chardonnay de Californie;Californie;Chardonnay;2013;19.5;Blanc;6.0;0.75;0.98;10.6;0.092;93;201;0.9888;3.16;0.31;13.5;9;9;0.84;2-9 ans
+Château Pinot Gris de Alsace;Alsace;Pinot Gris;2022;86.06;Blanc;8.2;0.94;0.24;5.9;0.022;53;370;0.9881;3.56;1.21;9.2;9;7;1.45;1-7 ans
+Château Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2018;26.73;Blanc;6.4;0.53;0.63;15.9;0.077;79;351;0.998;3.04;0.4;14.3;7;8;0.22;1-11 ans
+Estate Riesling de Barossa;Barossa;Riesling;2010;77.69;Blanc;3.1;0.3;0.56;0.7;0.042;59;196;0.99;3.46;1.29;13.6;6;11;0.25;3-11 ans
+Domaine Pinot Gris de Alsace;Alsace;Pinot Gris;2022;40.63;Blanc;3.2;0.24;0.53;4.7;0.075;53;200;1.0043;3.06;0.95;11.0;5;8;0.98;2-7 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2020;81.42;Blanc;4.2;0.78;0.21;19.7;0.109;143;222;0.9941;3.52;0.25;10.6;4;7;0.22;3-7 ans
+Estate Riesling de Barossa;Barossa;Riesling;2015;97.22;Blanc;5.3;0.86;0.64;2.6;0.041;119;121;1.0013;3.73;0.83;13.6;7;6;1.35;3-10 ans
+Château Chenin Blanc de Loire;Loire;Chenin Blanc;2015;42.63;Blanc;8.8;0.22;0.63;2.9;0.05;120;58;0.9854;3.11;1.5;12.9;5;10;1.37;1-7 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2017;120.68;Blanc;8.7;0.23;0.52;8.3;0.099;94;316;0.9965;3.47;0.26;10.7;4;8;0.97;1-10 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2011;96.92;Blanc;8.4;0.3;0.44;2.2;0.042;150;252;0.9991;3.64;1.3;14.3;5;8;1.44;1-8 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2021;26.77;Blanc;3.2;1.0;0.2;3.7;0.13;60;319;1.0029;3.41;1.16;13.6;5;7;1.24;2-9 ans
+Château Chenin Blanc de Loire;Loire;Chenin Blanc;2013;51.38;Blanc;7.8;0.42;0.15;19.3;0.057;110;125;0.9955;3.55;0.99;11.6;7;8;0.88;3-11 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2017;125.0;Blanc;6.5;1.02;0.78;0.8;0.136;100;364;0.9883;3.8;0.52;9.2;5;11;1.39;2-8 ans
+Finca Viura de Rioja;Rioja;Viura;2016;130.15;Blanc;4.2;0.22;0.32;1.0;0.034;92;85;0.9963;2.99;0.63;13.2;9;12;0.35;1-12 ans
+Finca Rabigato de Douro;Douro;Rabigato;2014;74.07;Blanc;6.2;1.0;0.7;6.9;0.078;49;333;0.9995;2.98;0.88;9.5;5;10;1.37;1-11 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2011;53.26;Blanc;7.9;0.25;0.51;17.9;0.129;150;61;0.9901;2.96;0.26;14.0;6;8;0.38;3-7 ans
+Château Sauvignon Blanc de Loire;Loire;Sauvignon Blanc;2021;19.71;Blanc;5.3;0.24;0.27;8.7;0.149;99;378;0.9886;3.15;0.98;12.6;9;7;1.42;1-12 ans
+Viña Viura de Rioja;Rioja;Viura;2011;138.17;Blanc;3.1;0.49;0.98;4.4;0.032;60;370;0.9959;3.47;0.68;10.5;8;8;1.5;1-6 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2016;108.49;Blanc;3.9;0.44;0.95;8.5;0.133;12;136;0.9968;2.99;0.85;11.8;4;11;0.36;1-12 ans
+Estate Riesling de Barossa;Barossa;Riesling;2017;138.98;Blanc;3.2;1.0;0.55;6.3;0.12;79;316;1.0006;2.99;0.57;12.7;8;10;0.74;2-5 ans
+Wine Farm Chenin Blanc de Stellenbosch;Stellenbosch;Chenin Blanc;2014;11.06;Blanc;5.8;0.71;0.37;13.8;0.017;25;110;0.9931;3.08;0.27;10.4;8;9;0.13;2-9 ans
+Clos Chenin Blanc de Loire;Loire;Chenin Blanc;2018;113.54;Blanc;5.8;0.15;0.73;12.7;0.055;91;276;0.9873;3.31;1.13;13.9;5;7;0.35;3-11 ans
+Estate Semillon de Hunter Valley;Hunter Valley;Semillon;2022;45.5;Blanc;5.2;0.81;0.54;19.1;0.092;126;51;0.988;3.3;1.16;14.0;9;11;0.97;1-10 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2011;62.55;Blanc;7.6;0.85;0.14;11.8;0.013;57;173;1.0023;3.14;1.3;9.7;9;10;1.4;3-12 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2012;65.87;Blanc;6.0;0.42;0.91;17.5;0.11;126;100;1.0014;3.61;1.42;10.7;4;9;1.44;2-9 ans
+Estate Chardonnay de Californie;Californie;Chardonnay;2012;50.76;Blanc;3.7;0.24;0.17;17.9;0.147;33;383;0.9952;3.4;0.85;10.4;4;6;1.2;3-11 ans
+Estate Riesling de Barossa;Barossa;Riesling;2019;147.09;Blanc;3.1;0.72;0.51;3.4;0.056;33;273;1.0035;3.5;1.14;14.1;6;12;0.84;3-5 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2010;41.3;Blanc;6.5;0.34;0.64;12.2;0.112;149;358;0.9943;3.47;0.21;13.1;6;11;0.71;3-12 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2020;19.98;Blanc;8.4;1.09;0.24;11.4;0.068;103;178;0.9886;3.24;1.3;13.7;7;9;0.5;3-9 ans
+Clos Chenin Blanc de Loire;Loire;Chenin Blanc;2011;67.75;Blanc;4.8;0.14;0.66;10.3;0.031;50;70;0.9985;3.25;1.14;13.7;7;9;1.01;1-9 ans
+Château Aligoté de Bourgogne;Bourgogne;Aligoté;2019;44.11;Blanc;7.1;1.06;0.15;19.6;0.015;75;145;0.9939;3.54;1.28;11.0;9;12;1.05;2-11 ans
+Château Aligoté de Bourgogne;Bourgogne;Aligoté;2021;125.86;Blanc;4.9;0.54;0.94;13.2;0.029;101;383;1.0006;3.68;0.85;11.9;5;12;0.25;2-7 ans
+Vineyard Semillon de Hunter Valley;Hunter Valley;Semillon;2022;148.24;Blanc;5.4;0.27;0.1;4.7;0.123;142;174;0.9895;3.11;0.83;9.3;6;10;0.24;1-6 ans
+Domaine Melon de Bourgogne de Loire;Loire;Melon de Bourgogne;2021;10.1;Blanc;7.1;0.71;0.55;12.1;0.081;130;132;0.9879;3.11;1.16;14.0;7;12;0.67;3-7 ans
+Weingut Grüner Veltliner de Wachau;Wachau;Grüner Veltliner;2018;114.25;Blanc;5.5;1.17;0.75;12.6;0.023;60;116;0.9857;3.74;1.24;13.7;4;8;0.44;3-5 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2017;55.92;Blanc;7.8;0.62;0.47;2.2;0.038;105;31;0.9945;3.17;0.72;13.2;8;9;1.28;3-8 ans
+Viña Viosinho de Douro;Douro;Viosinho;2016;69.74;Blanc;4.0;0.81;0.75;16.4;0.023;145;78;1.0031;2.91;0.48;9.8;6;10;0.15;2-9 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2021;38.69;Blanc;8.6;0.87;0.26;3.1;0.12;39;280;0.9998;3.43;0.73;11.7;6;11;1.05;1-12 ans
+Bodega Viura de Rioja;Rioja;Viura;2022;129.53;Blanc;5.1;0.7;0.66;6.9;0.114;70;38;0.9929;3.52;0.26;11.1;7;8;1.41;3-9 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2013;116.46;Blanc;8.4;0.46;0.7;8.1;0.016;46;101;0.9862;3.76;0.33;10.3;4;6;0.27;1-12 ans
+Estate Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2017;44.46;Blanc;7.7;0.82;0.97;3.6;0.142;26;38;1.0013;3.65;0.84;10.6;9;10;0.3;2-5 ans
+Bodega Viura de Rioja;Rioja;Viura;2018;64.11;Blanc;4.5;0.2;0.53;1.9;0.115;57;369;1.0046;3.2;1.48;11.4;5;6;0.65;3-10 ans
+Finca Torrontés de Mendoza;Mendoza;Torrontés;2015;135.02;Blanc;7.6;0.39;0.75;13.6;0.099;93;255;1.0026;3.17;1.36;11.5;5;6;1.11;2-9 ans
+Viña Rabigato de Douro;Douro;Rabigato;2016;43.13;Blanc;6.6;0.75;0.77;12.0;0.099;137;177;1.0022;3.74;0.89;10.6;7;8;0.92;1-11 ans
+Clos Aligoté de Bourgogne;Bourgogne;Aligoté;2010;25.39;Blanc;8.6;0.13;0.77;18.1;0.107;79;400;0.9935;3.8;0.63;13.6;6;11;0.11;3-9 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2022;63.2;Blanc;8.4;0.88;0.45;1.6;0.125;15;168;0.9995;3.47;0.3;13.4;6;7;0.79;1-9 ans
+Viña Viura de Rioja;Rioja;Viura;2012;147.16;Blanc;7.8;0.55;0.47;10.8;0.032;77;255;0.997;3.11;1.36;10.1;6;11;0.86;1-7 ans
+Estate Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2013;139.64;Blanc;4.4;1.08;0.57;8.4;0.057;16;89;0.9871;3.22;0.46;12.4;6;6;0.51;3-9 ans
+Château Melon de Bourgogne de Loire;Loire;Melon de Bourgogne;2012;56.86;Blanc;3.3;0.17;0.82;12.4;0.096;85;62;0.9978;3.19;0.56;10.0;5;12;1.03;1-7 ans
+Estate Semillon de Hunter Valley;Hunter Valley;Semillon;2022;143.95;Blanc;6.6;0.5;0.58;10.1;0.116;29;308;0.998;3.24;0.33;9.7;5;7;0.45;2-8 ans
+Weingut Riesling de Mosel;Mosel;Riesling;2010;98.86;Blanc;3.9;0.29;0.19;4.6;0.118;113;69;0.9976;2.93;0.63;11.8;8;8;0.16;1-8 ans
+Castello Vermentino de Toscane;Toscane;Vermentino;2022;146.48;Blanc;8.3;0.28;0.64;15.6;0.082;16;96;1.0007;3.25;1.06;12.8;4;10;1.36;3-5 ans
+Estate Riesling de Barossa;Barossa;Riesling;2011;41.78;Blanc;8.0;0.17;0.56;18.0;0.023;16;70;1.0001;3.75;1.23;9.8;4;8;0.31;2-11 ans
+Estate Sauvignon Blanc de Californie;Californie;Sauvignon Blanc;2021;143.72;Blanc;8.4;0.81;0.13;2.2;0.014;76;64;0.989;3.6;0.57;10.3;9;8;0.49;2-11 ans
+Estate Riesling de Barossa;Barossa;Riesling;2014;68.94;Blanc;4.2;0.71;0.15;11.3;0.071;132;116;0.9905;3.19;0.78;10.1;4;9;1.11;1-12 ans
+Vineyard Riesling de Barossa;Barossa;Riesling;2016;116.14;Blanc;8.5;0.3;0.77;6.6;0.017;89;82;1.0;3.22;0.41;12.2;4;11;0.47;3-5 ans
+Villa Vermentino de Toscane;Toscane;Vermentino;2018;26.75;Blanc;4.4;1.08;0.94;15.1;0.061;115;252;1.002;3.64;1.33;12.5;7;10;0.39;3-9 ans
+Viña Rabigato de Douro;Douro;Rabigato;2021;100.92;Blanc;3.7;0.25;0.62;6.8;0.079;14;185;0.9944;3.44;0.63;11.5;7;11;0.27;1-10 ans
