@@ -12,16 +12,10 @@ Ces données sont issues d’une étude menée par l'Université de Minho (Portu
 Les deux fichiers contiennent les observations suivantes :
 
 - **Vin rouge** :
-    - Nombre d'observations : **1 599**
-    - Nombre de variables : **12** (11 variables explicatives + 1 variable cible)
+    - Nombre de variables : **21**
 
 - **Vin blanc** :
-    - Nombre d'observations : **4 898**
-    - Nombre de variables : **12** (11 variables explicatives + 1 variable cible)
-
-#### Type des variables
-
-Les variables explicatives sont de type **quantitatif continu**
+    - Nombre de variables : **21** 
 
 #### Description des variables
 
