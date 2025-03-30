@@ -1,4 +1,4 @@
-MorpheUTT fait référence à Morpheus de Matrix, film faisant également référence aux vecteurs et surtout matrices que l'on manipulera pendant le projet. La terminaison UTT est pour l'école !
+MorpheUTT fait référence au personnage Morpheus de la saga Matrix, faisant également référence aux vecteurs et surtout matrices que l'on manipulera pendant le projet. La terminaison UTT est pour l'école !
 
 # Proposition
 
@@ -19,35 +19,35 @@ Les deux fichiers contiennent les observations suivantes :
 
 #### Description des variables
 
-| Variable                 | Description                                                        | Type                |
-|--------------------------|--------------------------------------------------------------------|---------------------|
-| `nom_du_vin`             | Nom commercial du vin.                                             | Catégorique         |
-| `region`                 | Région viticole d'origine (ex : Toscane, Bordeaux, Napa Valley).   | Catégorique         |
-| `cepage`                 | Type de raisin utilisé (ex : Cabernet Sauvignon, Malbec).          | Catégorique         |
-| `annee`                  | Année de production du vin.                                        | Numérique (discret) |
-| `prix_eur`               | Prix du vin en euros (€).                                          | Numérique (continu) |
-| `type_vin`               | Type de vin (rouge, blanc).                                        | Catégorique         |
-| `fixed acidity`          | Quantité d'acide fixe présent dans le vin.                         | Numérique (continu) |
-| `volatile acidity`       | Quantité d'acide volatil, influence l'arôme.                       | Numérique (continu) |
-| `citric acid`            | Quantité d'acide citrique, donne de la fraîcheur.                  | Numérique (continu) |
-| `residual sugar`         | Teneur en sucre résiduel après fermentation.                       | Numérique (continu) |
-| `chlorides`              | Teneur en chlorure du vin.                                         | Numérique (continu) |
-| `free sulfur dioxide`    | Dioxyde de soufre libre, protège contre la dégradation .           | Numérique (continu) |
-| `total sulfur dioxide`   | Quantité totale de dioxyde de soufre .                             | Numérique (continu) |
-| `density`                | Densité du vin, liée à l'alcool et au sucre.                       | Numérique (continu) |
-| `pH`                     | Mesure de l'acidité du vin (sans unité, entre 0 et 14).            | Numérique (continu) |
-| `sulphates`              | Teneur en sulfates, contribue à la conservation et au goût  .      | Numérique (continu) |
-| `alcohol`                | Teneur en alcool (% vol.).                                         | Numérique (continu) |
-| `quality`                | Note de qualité du vin (entre 0 et 10), attribuée par des experts. | Numérique (discret) |
-| `temperature_service`    | Température idéale de dégustation (°C).                            | Numérique (continu) |
-| `tannins`                | Indice de teneur en tannins (impacte l'astringence du vin).        | Numérique (continu) |
-| `vieillissement_optimal` | Durée recommandée de vieillissement avant consommation .           | Numérique (discret) |
-| `quality`                | note de qualité du vin attribuée par des dégustateurs, de 0 à 10.  | Numérique (discret) |
+| Variable                 | Description                                                       | Type                |
+|--------------------------|-------------------------------------------------------------------|---------------------|
+| `nom_du_vin`             | Nom commercial du vin                                             | Catégorique         |
+| `region`                 | Région viticole d'origine (ex : Toscane, Bordeaux, Napa Valley)   | Catégorique         |
+| `cepage`                 | Type de raisin utilisé (ex : Cabernet Sauvignon, Malbec)          | Catégorique         |
+| `annee`                  | Année de production du vin                                        | Numérique (discret) |
+| `prix_eur`               | Prix du vin en euros (€)                                          | Numérique (continu) |
+| `type_vin`               | Type de vin (rouge, blanc)                                        | Catégorique         |
+| `fixed acidity`          | Quantité d'acide fixe présent dans le vin                         | Numérique (continu) |
+| `volatile acidity`       | Quantité d'acide volatile (influence l'arôme)                     | Numérique (continu) |
+| `citric acid`            | Quantité d'acide citrique (donne de la fraîcheur)                 | Numérique (continu) |
+| `residual sugar`         | Teneur en sucre résiduel après fermentation                       | Numérique (continu) |
+| `chlorides`              | Teneur en chlorure du vin                                         | Numérique (continu) |
+| `free sulfur dioxide`    | Dioxyde de soufre libre (protège contre la dégradation)           | Numérique (continu) |
+| `total sulfur dioxide`   | Quantité totale de dioxyde de soufre                              | Numérique (continu) |
+| `density`                | Densité du vin, liée à l'alcool et au sucre                       | Numérique (continu) |
+| `pH`                     | Mesure de l'acidité du vin (sans unité, entre 0 et 14)            | Numérique (continu) |
+| `sulphates`              | Teneur en sulfates (contribue à la conservation et au goût)       | Numérique (continu) |
+| `alcohol`                | Teneur en alcool (% vol.)                                         | Numérique (continu) |
+| `quality`                | Note de qualité du vin (entre 0 et 10), attribuée par des experts | Numérique (discret) |
+| `temperature_service`    | Température idéale de dégustation (°C)                            | Numérique (continu) |
+| `tannins`                | Indice de teneur en tannins (impacte l'astringence du vin)        | Numérique (continu) |
+| `vieillissement_optimal` | Durée recommandée de vieillissement avant consommation            | Numérique (discret) |
+| `quality`                | note de qualité du vin attribuée par des dégustateurs (de 0 à 10) | Numérique (discret) |
 
 
 ---
 
-### 🧐 Plan d’analyse
+### Plan d’analyse
 
 L'objectif de notre analyse est d'explorer les relations entre les propriétés physico-chimiques des vins et leur **qualité**. Nous souhaitons répondre aux questions suivantes :
 
@@ -72,4 +72,4 @@ Nous resterons attentifs aux éventuels biais ou déséquilibres présents dans 
 
 ---
 
-📂 Les jeux de données utilisés sont disponibles dans le dossier `/data`.
+Les jeux de données utilisés sont disponibles dans le dossier `/data`.
