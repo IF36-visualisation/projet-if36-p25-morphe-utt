@@ -21,7 +21,7 @@ Les deux fichiers contiennent les observations suivantes :
 
 | Variable                 | Description                                                       | Type                |
 |--------------------------|-------------------------------------------------------------------|---------------------|
-| `nom_du_vin`             | Nom commercial du vin                                             | Catégorique         |
+| `nom_du_vin`             | Nom commercial du vin                                             | Nominal             |
 | `region`                 | Région viticole d'origine (ex : Toscane, Bordeaux, Napa Valley)   | Catégorique         |
 | `cepage`                 | Type de raisin utilisé (ex : Cabernet Sauvignon, Malbec)          | Catégorique         |
 | `annee`                  | Année de production du vin                                        | Numérique (discret) |
