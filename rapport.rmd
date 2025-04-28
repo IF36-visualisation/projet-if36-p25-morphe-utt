@@ -83,7 +83,7 @@ ggplot(redwine2, aes(x = valeur, y = quality)) +
 
 ## **GENERATION DE GRAPHIQUES POUR REPONDRE A LA QUESTION (vin blanc)**
 
-### Etape 2
+### Etape 2 :
 ```{r}
 whitewine2 <- whitewine %>%
   select(quality, all_of(variables_chimiques)) %>%
