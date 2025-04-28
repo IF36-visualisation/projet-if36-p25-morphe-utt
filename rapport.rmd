@@ -14,6 +14,9 @@ library(tidyr)
 Dans le cadre de ce projet, nous avons choisi d'utiliser deux jeux de données portant sur la qualité des vins : l'un sur le vin rouge (red_wine.csv), l'autre sur le vin blanc (white_wine.csv).
 Ces données sont issues d’une étude menée par l'Université de Minho (Portugal) et sont accessibles publiquement sur plusieurs plateformes de data science. Elles ont été collectées afin de prédire la qualité des vins à partir de leurs propriétés physico-chimiques.
 
+# Description des données
+La description des données est retrouvable sur le github du projet : __**https://github.com/IF36-visualisation/projet-if36-p25-morphe-utt**__
+
 # Rappel du plan d'analyse
 L'objectif de notre analyse est d'explorer les relations entre les propriétés physico-chimiques des vins et leur     qualité. Nous souhaitons répondre aux questions suivantes :
 
