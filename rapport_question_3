@@ -1,0 +1,175 @@
+# =========================================
+# COMMENTAIRE D'INTERPRÉTATION DU TRAVAIL RÉALISÉ
+# =========================================
+
+# 1. Chargement des données
+# Nous avons chargé deux jeux de données distincts contenant les caractéristiques physico-chimiques
+# du vin rouge et du vin blanc. Chaque échantillon est accompagné d'un score de qualité.
+
+# 2. Identification du type de vin
+# Afin de différencier les échantillons, une nouvelle colonne ('type_vin') a été ajoutée
+# pour indiquer s'il s'agit de vin rouge ou blanc.
+
+# 3. Fusion des données
+# Les deux datasets ont été combinés en un seul ensemble de données global pour faciliter l'analyse.
+
+# 4. Préparation des données
+# Nous avons remplacé toutes les valeurs manquantes (NA) par 0 pour éviter toute perturbation
+# lors du calcul des corrélations.
+
+# 5. Sélection des variables pertinentes
+# Seules les variables numériques (caractéristiques physico-chimiques mesurables) ont été conservées
+# pour le calcul de corrélation avec la qualité.
+
+# 6. Calcul des corrélations
+# Pour chaque type de vin (rouge et blanc), nous avons calculé la corrélation de chaque variable
+# physico-chimique avec la qualité. 
+# La corrélation mesure ici la force et le sens de la relation entre chaque caractéristique et la qualité :
+# - Une corrélation positive indique qu'une augmentation de la variable est associée à une augmentation de la qualité.
+# - Une corrélation négative indique qu'une augmentation de la variable est associée à une diminution de la qualité.
+
+# 7. Visualisation
+# Trois types de graphiques ont été générés :
+#    - Un graphique pour le vin blanc seul
+#    - Un graphique pour le vin rouge seul
+#    - Un graphique comparatif entre vin blanc et vin rouge
+#
+# Chaque graphique présente :
+#    - Les variables physico-chimiques en abscisse,
+#    - La corrélation avec la qualité en ordonnée, limitée entre -0.10 et 0.10,
+#    - Les couleurs bleu foncé pour le vin blanc et vert pour le vin rouge.
+
+# 8. Réglages graphiques spécifiques
+# Nous avons choisi une échelle restreinte (-0.10 à +0.10) pour mieux visualiser
+# les faibles corrélations, caractéristiques typiques des études sur le vin.
+# Les intervalles de 0.05 permettent une lecture précise sans surcharger l'axe.
+
+# Conclusion
+# Cette méthodologie nous permet d'identifier rapidement quelles variables influencent
+# le plus (positivement ou négativement) la qualité du vin, de façon distincte entre le vin rouge et le vin blanc.
+
+# =========================================
+
+# Chargement des librairies nécessaires
+library(tidyverse)
+library(readr)
+library(ggplot2)
+
+# Chargement des données
+red_wine <- read_delim("~/images_robes/red_wine.csv", delim = ";", locale = locale(encoding = "UTF-8"))
+white_wine <- read_delim("~/images_robes/white_wine.csv", delim = ";", locale = locale(encoding = "UTF-8"))
+
+# Ajouter une colonne pour indiquer le type de vin
+red_wine <- red_wine %>% mutate(type_vin = "rouge")
+white_wine <- white_wine %>% mutate(type_vin = "blanc")
+
+# Fusionner les deux datasets
+wine_data <- bind_rows(red_wine, white_wine)
+
+# Remplacer les NA par 0
+wine_data <- wine_data %>% mutate(across(everything(), ~replace_na(., 0)))
+
+# Sélection des variables numériques
+num_vars <- wine_data %>% 
+  select(-type_vin) %>% 
+  select_if(is.numeric) %>% 
+  names()
+
+# Calcul de la corrélation entre chaque variable et la qualité, par type de vin
+correlations <- wine_data %>%
+  select(all_of(num_vars), type_vin) %>%
+  pivot_longer(cols = -c(quality, type_vin), names_to = "variable", values_to = "valeur") %>%
+  group_by(type_vin, variable) %>%
+  summarize(correlation = cor(valeur, quality), .groups = "drop") %>%
+  filter(correlation != 0)
+
+# ======================
+# 1. Graphe pour le vin blanc
+# ======================
+
+cor_blanc <- correlations %>% 
+  filter(type_vin == "blanc") %>%
+  mutate(variable = forcats::fct_reorder(variable, abs(correlation), .desc = TRUE))
+
+ggplot(cor_blanc, aes(x = variable, y = correlation, fill = type_vin)) +
+  geom_bar(stat = "identity", width = 0.6) +
+  scale_fill_manual(values = c("blanc" = "#0d47a1")) +  # Bleu foncé
+  scale_y_continuous(
+    breaks = seq(-0.10, 0.10, by = 0.05),
+    limits = c(-0.10, 0.10)
+  ) +
+  labs(
+    title = "Corrélation entre les caractéristiques chimiques et la qualité du vin blanc",
+    x = "Variables explicatives",
+    y = "Corrélation avec la qualité ",
+    fill = "Type de vin"
+  ) +
+  theme_minimal(base_family = "Arial") +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    axis.text.y = element_text(size = 8),
+    legend.position = "none"
+  )
+
+# ======================
+# 2. Graphe pour le vin rouge
+# ======================
+
+cor_rouge <- correlations %>%
+  filter(type_vin == "rouge") %>%
+  mutate(variable = forcats::fct_reorder(variable, abs(correlation), .desc = TRUE))
+
+ggplot(cor_rouge, aes(x = variable, y = correlation, fill = type_vin)) +
+  geom_bar(stat = "identity", width = 0.6) +
+  scale_fill_manual(values = c("rouge" = "#2e7d32")) +  # Vert foncé
+  scale_y_continuous(
+    breaks = seq(-0.10, 0.10, by = 0.05),
+    limits = c(-0.10, 0.10)
+  ) +
+  labs(
+    title = "Corrélation entre les caractéristiques chimiques et la qualité du vin rouge",
+    x = "Variables explicatives",
+    y = "Corrélation avec la qualité ",
+    fill = "Type de vin"
+  ) +
+  theme_minimal(base_family = "Arial") +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    axis.text.y = element_text(size = 8),
+    legend.position = "none"
+  )
+
+# ======================
+# 3. Graphe comparatif vin rouge vs vin blanc
+# ======================
+
+# Re-trier les variables pour la comparaison
+correlations <- correlations %>%
+  mutate(variable = forcats::fct_reorder(variable, abs(correlation), .desc = TRUE))
+
+ggplot(correlations, aes(x = variable, y = correlation, fill = type_vin)) +
+  geom_bar(stat = "identity", position = position_dodge(width = 0.7), width = 0.6) +
+  scale_fill_manual(values = c("blanc" = "#0d47a1", "rouge" = "#2e7d32")) +
+  scale_y_continuous(
+    breaks = seq(-0.10, 0.10, by = 0.05),
+    limits = c(-0.10, 0.10)
+  ) +
+  labs(
+    title = "Comparaison de l'influence des variables chimiques sur la qualité du vin",
+    subtitle = "Corrélation entre les variables pour vins rouges et blancs",
+    x = "Variables explicatives",
+    y = "Corrélation avec la qualité ",
+    fill = "Type de vin"
+  ) +
+  theme_minimal(base_family = "Arial") +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
+    axis.text.y = element_text(size = 8),
+    legend.position = "top"
+  )
+
+#Le pH et le sucre résiduel affectent négativement la qualité des vins rouges comme des vins blancs.
+#À l'inverse, l’acide amree contribue à améliorer la qualité pour les deux types de vins.
+#La volatilité nuit particulièrement à la qualité du vin rouge, tandis que la densité et le dioxyde de soufre libre exercent un effet bénéfique, surtout sur les vins rouges.
+#Enfin, les sulfates présentent un comportement opposé : ils impactent positivement la qualité du vin rouge, mais négativement celle du vin blanc.
+
