@@ -1,12 +1,14 @@
 ---
 title: "Rapport sur la corrélation potentielle entre certaines propriétés chimiques et la qualité du vin"
 author: "MONTERIN Maxime"
-output: html_document
+output: pdf_document
 ---
 
+```{r include=FALSE}
 library(ggplot2)
 library(dplyr)
 library(tidyr)
+```
 
 ## **LA QUESTION DONNEE**
 
@@ -18,16 +20,20 @@ library(tidyr)
 
 
 ### Chargement des données
+```{r}
 redwine <- read.csv("~/projet-if36-p25-morphe-utt/data/red_wine.csv", header = TRUE, sep = ';')
 whitewine <- read.csv("~/projet-if36-p25-morphe-utt/data/white_wine.csv", header = TRUE, sep = ';')
-
+```
 
 ### Etape 1 : On ne garde que les variables qui sont reliées à de la chimie
+```{r}
 variables_chimiques <- c("fixed_acidity", "volatile_acidity", "citric_acid",
               "residual_sugar", "chlorides", "free_sulfur_dioxide",
               "total_sulfur_dioxide", "density", "pH", "sulphates", "alcohol")
+```
 
 ### Etape 1.5 : Ajout des unités aux catégories gardées
+```{r}
 unit_labels <- c(
   "fixed_acidity"         = "Acidité fixe (g/dm³)",
   "volatile_acidity"      = "Acidité volatile (g/dm³)",
@@ -39,11 +45,13 @@ unit_labels <- c(
   "density"               = "Densité (g/cm³)",
   "pH"                    = "pH",
   "sulphates"             = "Sulfates (g/dm³)",
-  "alcohol"               = "Alcool (% vol.)",
+  "alcohol"               = "Alcool (% vol.)"
 )
+```
 
 ### Etape 2 : On factorise nos différentes variables et leurs valeurs dans un tableau à 2 dimensions.
-#### ça va permettre de générer pleins de graphiques en une seule fois plutot que d'en générer plusieurs à la main
+ça va permettre de générer pleins de graphiques en une seule fois plutot que d'en générer plusieurs à la main
+```{r}
 redwine2 <- redwine %>%
   select(quality, all_of(variables_chimiques)) %>%
   pivot_longer(
@@ -51,8 +59,10 @@ redwine2 <- redwine %>%
     names_to  = "variable",
     values_to = "valeur"
   )
+```
 
 ### Etape 3 : Génération des scatters plots avec le tableau factorisé B)
+```{r}
 ggplot(redwine2, aes(x = valeur, y = quality)) +
   # Génération des points
   geom_point(alpha = 0.3, shape = 1) +
@@ -69,10 +79,12 @@ ggplot(redwine2, aes(x = valeur, y = quality)) +
     x     = "Valeur de la variable chimique",
     y     = "Qualité (note sur 10 attribuée par un ou des expert(s))"
   )
+```
 
 ## **GENERATION DE GRAPHIQUES POUR REPONDRE A LA QUESTION (vin blanc)**
 
-### Etape 2 
+### Etape 2
+```{r}
 whitewine2 <- whitewine %>%
   select(quality, all_of(variables_chimiques)) %>%
   pivot_longer(
@@ -80,8 +92,10 @@ whitewine2 <- whitewine %>%
     names_to  = "variable",
     values_to = "valeur"
   )
+```
 
 ### Etape 3 :
+```{r}
 ggplot(whitewine2, aes(x = valeur, y = quality)) +
   # Génération des points
   geom_point(alpha = 0.3, shape = 1) +
@@ -98,6 +112,7 @@ ggplot(whitewine2, aes(x = valeur, y = quality)) +
     x     = "Valeur de la variable chimique",
     y     = "Qualité (note sur 10 attribuée par un ou des expert(s))"
   )
+```
 
 ## **ANALYSE ET REPONSE A LA QUESTION DONNEE**
 

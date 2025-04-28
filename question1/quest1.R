@@ -32,7 +32,7 @@ unit_labels <- c(
   "density"               = "Densité (g/cm³)",
   "pH"                    = "pH",
   "sulphates"             = "Sulfates (g/dm³)",
-  "alcohol"               = "Alcool (% vol.)",
+  "alcohol"               = "Alcool (% vol.)"
 )
 
 # Etape 2 : On factorise nos différentes variables et leurs valeurs dans un tableau à 2 dimensions.
