@@ -1,0 +1,29 @@
+## Partie Exploration
+
+### Question 4 : **Les vins ayant une teneur élevée en alcool obtiennent-ils une meilleure note ?**
+
+---
+
+#### Hypothèses de départ
+
+Nous formulons l'hypothèse suivante :
+> Les vins ayant une teneur en alcool plus élevée pourraient obtenir de meilleures notes de qualité, car l'alcool peut influencer positivement la perception sensorielle du vin (structure, chaleur en bouche, équilibre).
+
+Cependant, un excès d'alcool pourrait également déséquilibrer le vin et nuire à son évaluation.
+
+1. **Visualisation de la relation entre `alcohol` et `quality`** :
+   - Création d'un nuage de points (`scatterplot`) avec `alcohol` en abscisse et `quality` en ordonnée.
+   - Ajout d'une droite de tendance pour observer une éventuelle corrélation visuelle.
+2. **Comparaison entre types de vins** :
+- Réaliser les analyses séparément pour les vins rouges et les vins blancs.
+- Vérifier si la relation entre alcool et qualité diffère selon le type de vin.
+
+#### 📈 Résultats attendus
+
+- Nous nous attendons à observer une **corrélation positive modérée** entre la teneur en alcool et la qualité perçue.
+- Il est probable que les vins ayant un **taux d’alcool plus élevé** aient, en moyenne, une **meilleure note** que les vins faiblement alcoolisés.
+- Toutefois, la relation pourrait ne pas être linéaire parfaite : un vin excessivement alcoolisé pourrait être moins apprécié.
+
+
+
+
