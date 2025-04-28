@@ -48,7 +48,7 @@ redwine2 <- redwine %>%
 # Etape 3 : Génération des scatters plots avec le tableau factorisé B)
 ggplot(redwine2, aes(x = valeur, y = quality)) +
   # Génération des points
-  geom_point(alpha = 0.3, shape = 1) +
+  geom_jitter(alpha = 0.3, shape = 1, width = 0, height = 0.2) +
   # Génération de la droite de regression avec son intervalle de confiance
   geom_smooth(method = "lm", se = TRUE, color = "darkred") +
   # Sert pour la création de nos graphiques, c'est ce qui permet la répartion sur 3 colonnes 
@@ -77,7 +77,7 @@ whitewine2 <- whitewine %>%
 # Etape 3 :
 ggplot(whitewine2, aes(x = valeur, y = quality)) +
   # Génération des points
-  geom_point(alpha = 0.3, shape = 1) +
+  geom_jitter(alpha = 0.3, shape = 1, width = 0, height = 0.2) +
   # Génération de la droite de regression avec son intervalle de confiance
   geom_smooth(method = "lm", se = TRUE, color = "darkred") +
   # Sert pour la création de nos graphiques, c'est ce qui permet la répartion sur 3 colonnes 
