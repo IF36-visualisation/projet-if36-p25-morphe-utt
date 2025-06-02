@@ -48,8 +48,11 @@ redwine2 <- redwine %>%
 # Etape 3 : Génération des scatters plots avec le tableau factorisé B)
 ggplot(redwine2, aes(x = as.factor(quality), y = valeur)) +
   geom_boxplot(outlier.alpha = 0.2, fill = "lightpink", color = "darkred") +
-  facet_wrap(~ variable, scales = "free_y", ncol = 3, labeller = labeller(variable = unit_labels)) +
+  facet_wrap(~ variable, scales = "free_y", ncol = 4, labeller = labeller(variable = unit_labels)) +
   theme_minimal(base_size = 12) +
+  theme(
+    panel.spacing = unit(2, "lines")
+    ) + # Augmente l’espacement vertical
   labs(
     title = "Distribution des variables chimiques en fonction de la note de qualité (vin rouge)",
     x     = "Qualité (note sur 10)",
@@ -70,8 +73,11 @@ whitewine2 <- whitewine %>%
 # Etape 3 :
 ggplot(whitewine2, aes(x = as.factor(quality), y = valeur)) +
   geom_boxplot(outlier.alpha = 0.2, fill = "lightblue", color = "darkblue") +
-  facet_wrap(~ variable, scales = "free_y", ncol = 3, labeller = labeller(variable = unit_labels)) +
+  facet_wrap(~ variable, scales = "free_y", ncol = 4, labeller = labeller(variable = unit_labels)) +
   theme_minimal(base_size = 12) +
+  theme(
+    panel.spacing = unit(2, "lines")
+  ) +
   labs(
     title = "Distribution des variables chimiques en fonction de la note de qualité (vin blanc)",
     x     = "Qualité (note sur 10)",
