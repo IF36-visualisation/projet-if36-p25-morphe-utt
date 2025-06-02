@@ -46,21 +46,14 @@ redwine2 <- redwine %>%
   )
 
 # Etape 3 : Génération des scatters plots avec le tableau factorisé B)
-ggplot(redwine2, aes(x = valeur, y = quality)) +
-  # Génération des points
-  geom_jitter(alpha = 0.3, shape = 1, width = 0, height = 0.2) +
-  # Génération de la droite de regression avec son intervalle de confiance
-  geom_smooth(method = "lm", se = TRUE, color = "darkred") +
-  # Sert pour la création de nos graphiques, c'est ce qui permet la répartion sur 3 colonnes 
-  # mais aussi le fait que les abcisses soient libre 
-  facet_wrap(~ variable, scales = "free_x", ncol = 3, labeller = labeller(variable = unit_labels)) +
-  # Utilise un thème épuré, pour faire ressortir la droite de regression je trouve ça cool
+ggplot(redwine2, aes(x = as.factor(quality), y = valeur)) +
+  geom_boxplot(outlier.alpha = 0.2, fill = "lightpink", color = "darkred") +
+  facet_wrap(~ variable, scales = "free_y", ncol = 3, labeller = labeller(variable = unit_labels)) +
   theme_minimal(base_size = 12) +
-  # Gestion des labels
   labs(
-    title = "Relations entre une variable chimique d'un vin rouge et sa note de qualité",
-    x     = "Valeur de la variable chimique",
-    y     = "Qualité (note sur 10 attribuée par un ou des expert(s))"
+    title = "Distribution des variables chimiques en fonction de la note de qualité (vin rouge)",
+    x     = "Qualité (note sur 10)",
+    y     = "Valeur de la variable chimique"
   )
 
 # ================= GENERATION DE GRAPHIQUES POUR REPONDRE A LA QUESTION (vin blanc) ================= 
@@ -75,21 +68,14 @@ whitewine2 <- whitewine %>%
   )
 
 # Etape 3 :
-ggplot(whitewine2, aes(x = valeur, y = quality)) +
-  # Génération des points
-  geom_jitter(alpha = 0.3, shape = 1, width = 0, height = 0.2) +
-  # Génération de la droite de regression avec son intervalle de confiance
-  geom_smooth(method = "lm", se = TRUE, color = "darkred") +
-  # Sert pour la création de nos graphiques, c'est ce qui permet la répartion sur 3 colonnes 
-  # mais aussi le fait que les abcisses soient libre 
-  facet_wrap(~ variable, scales = "free_x", ncol = 3, labeller = labeller(variable = unit_labels)) +
-  # Utilise un thème épuré, pour faire ressortir la droite de regression je trouve ça cool
+ggplot(whitewine2, aes(x = as.factor(quality), y = valeur)) +
+  geom_boxplot(outlier.alpha = 0.2, fill = "lightblue", color = "darkblue") +
+  facet_wrap(~ variable, scales = "free_y", ncol = 3, labeller = labeller(variable = unit_labels)) +
   theme_minimal(base_size = 12) +
-  # Gestion des labels
   labs(
-    title = "Relations entre une variable chimique d'un vin blanc et sa note de qualité",
-    x     = "Valeur de la variable chimique",
-    y     = "Qualité (note sur 10 attribuée par un ou des expert(s))"
+    title = "Distribution des variables chimiques en fonction de la note de qualité (vin blanc)",
+    x     = "Qualité (note sur 10)",
+    y     = "Valeur de la variable chimique"
   )
 
 # ================= ANALYSE ET REPONSE A LA QUESTION DONNEE ================= 
