@@ -1,0 +1,231 @@
+---
+title: "Profil chimique moyen des vins excellents"
+author: "Projet MorpheUTT"
+output: html_document
+---
+
+# Analyse du graphique radar : Profils chimiques moyens des vins
+
+Ce graphique radar compare les **profils chimiques moyens** de deux groupes de vins :
+- **"Excellent"** (qualité ≥ 8)
+- **"Autre"** (qualité < 8)
+
+Chaque axe représente une variable chimique normalisée entre 0 et 1 pour faciliter la comparaison.
+
+## Variables analysées
+
+- `alcohol` (teneur en alcool)
+- `volatile.acidity` (acidité volatile)
+- `citric.acid`
+- `residual.sugar` (sucre résiduel)
+- `chlorides`
+- `free.sulfur.dioxide`
+- `total.sulfur.dioxide`
+- `density`
+- `pH`
+- `sulphates`
+
+## 🎨 Légende
+
+- **Vert** : Moyenne des vins "Excellent"
+- **Gris** : Moyenne des vins "Autre"
+
+
+## 🧠 Analyse du graphique radar
+
+Ce graphique compare les **profils chimiques moyens** des vins selon leur note de qualité.
+
+On observe plusieurs différences nettes entre les vins **excellents (note ≥ 8)** et les autres :
+
+| Variable                  | Observation                                                                     |
+|---------------------------|---------------------------------------------------------------------------------|
+| **alcohol**               | Significativement plus élevé chez les vins "Excellent".                         |
+| **volatile.acidity**      | Plus faible dans les vins "Excellent" — moins de goûts désagréables.            |
+| **citric.acid**           | Légèrement plus élevé chez les autres.                                          |
+| **residual.sugar**        | Plus élevé chez les "Autres", mais cela n’améliore pas forcément la qualité.    |
+| **chlorides**             | Légèrement plus élevé chez les "Excellent".                                     |
+| **free.sulfur.dioxide**   | Plus élevé chez les autres, suggérant un excès de soufre.                       |
+| **total.sulfur.dioxide**  | Idem, potentiellement lié à une moins bonne conservation.                       |
+| **density**               | Plus élevé chez les "Excellent", ce qui peut refléter une plus grande richesse. |
+| **pH**                    | Légèrement plus élevé chez les vins "Excellent".                                |
+| **sulphates**             | Plus élevé chez les "Excellent", aidant à la stabilité du vin.                  |
+
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(fmsb)
+library(scales)
+
+# Chargement des données
+redwine <- read.csv("./data/red_wine.csv", sep = ";") %>%
+  mutate(type = "Vin rouge")
+whitewine <- read.csv("./data/white_wine.csv", sep = ";") %>%
+  mutate(type = "Vin blanc")
+wine_all <- bind_rows(redwine, whitewine)
+
+# Regroupement : Excellent / Autre
+wine_all <- wine_all %>%
+  mutate(groupe = ifelse(quality >= 8, "Excellent", "Autre"))
+
+# Variables chimiques
+vars <- c("alcohol", "volatile.acidity", "citric.acid", "residual.sugar",
+          "chlorides", "free.sulfur.dioxide", "total.sulfur.dioxide",
+          "density", "pH", "sulphates")
+
+# Moyennes par groupe
+mean_data <- wine_all %>%
+  group_by(groupe) %>%
+  summarise(across(all_of(vars), mean, na.rm = TRUE), .groups = "drop")
+
+# Calcul des min / max globaux pour chaque variable
+global_min <- sapply(wine_all[vars], min, na.rm = TRUE)
+global_max <- sapply(wine_all[vars], max, na.rm = TRUE)
+
+# Normalisation des moyennes (par min/max global), puis en %
+mean_pct <- as.data.frame(
+  t(apply(mean_data[, vars], 1, function(x) {
+    (x - global_min) / (global_max - global_min) * 100
+  }))
+)
+
+rownames(mean_pct) <- mean_data$groupe
+
+# Ajout des lignes max / min (obligatoire pour fmsb)
+mean_pct <- rbind(rep(100, ncol(mean_pct)), rep(0, ncol(mean_pct)), mean_pct)
+
+# Radar chart
+colors_border <- c("#F4A261", "#264653")
+colors_in <- c(alpha("#F4A261", 0.3), alpha("#264653", 0.3))
+
+radarchart(
+  mean_pct,
+  axistype    = 1,
+  pcol        = colors_border,
+  pfcol       = colors_in,
+  plwd        = 2,
+  cglcol      = "grey", cglty = 1,
+  axislabcol  = "grey20",
+  seg         = 4,
+  caxislabels = c("0%", "25%", "50%", "75%", "100%"),
+  vlcex       = 0.8,
+  title       = "Profils chimiques moyens (% de la plage globale)"
+)
+
+legend(
+  "topright",
+  legend   = rownames(mean_pct)[-(1:2)],
+  bty      = "n",
+  pch      = 20,
+  col      = colors_border,
+  text.col = "black",
+  pt.cex   = 2
+)
+```
+
+
+## 💡 Interprétation 1
+
+On observe que la courbe des vins "Excellents" se distingue de celle des autres vins sur plusieurs axes clés.
+Par exemple, le profil moyen des vins excellents présente un taux d’alcool plus élevé et une acidité volatile plus faible que celui des autres vins.
+Inversement, les vins de qualité inférieure montrent en moyenne des valeurs plus élevées en chlorures (teneur en sel) et des valeurs plus basses en alcool.
+Globalement, les vins excellents tendent à occuper une position plus favorable sur la plupart des paramètres:
+plus d’alcool, un peu plus d’acide citrique, moins d’acidité volatile et de chlorures, etc. À l’inverse, les vins du groupe "autres" affichent des moyennes moins avantageuses sur ces critères (par ex. acidité volatile plus forte, alcool moindre),
+ce qui suggère déjà des différences de qualité en lien avec ces composés.
+
+En revanche, certaines variables ne semblent pas fortement discriminantes sur ce graphique des moyennes.
+Par exemple, le sucre résiduel moyen est relativement bas dans les deux groupes (vins majoritairement secs),
+avec peu d’écart notable entre vins excellents et autres. De même, le pH moyen apparaît assez similaire pour les deux catégories de vins, indiquant que l’acidité totale (fixe + volatile) moyenne ne diffère pas drastiquement entre les groupes.
+Les sulfates présentent un écart moyen modéré entre groupes: les excellents vins ont des niveaux de sulfates comparables, voire légèrement inférieurs,
+à ceux des autres vins en moyenne. Ces premières observations suggèrent donc que seuls certains paramètres chimiques distinguent nettement les vins de haute qualité.
+Les variables comme l’alcool, l’acidité volatile ou les chlorures montrent des écarts moyens significatifs entre groupes, tandis que d’autres (pH, sucre résiduel, sulfates…) sont plus proches, du moins en valeur moyenne.
+---
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(fmsb)
+library(scales)
+
+# Chargement des données
+redwine <- read.csv("./data/red_wine.csv", sep = ";") %>%
+  mutate(type = "Vin rouge")
+whitewine <- read.csv("./data/white_wine.csv", sep = ";") %>%
+  mutate(type = "Vin blanc")
+wine_all <- bind_rows(redwine, whitewine)
+
+# Création de la variable binaire de qualité
+wine_all <- wine_all %>%
+  mutate(groupe = ifelse(quality >= 8, "Excellent", "Autre"))
+
+# Variables à visualiser
+vars <- c("alcohol", "volatile.acidity", "citric.acid", "residual.sugar",
+          "chlorides", "free.sulfur.dioxide", "total.sulfur.dioxide",
+          "density", "pH", "sulphates")
+
+# Moyennes par groupe
+mean_data <- wine_all %>%
+  group_by(groupe) %>%
+  summarise(across(all_of(vars), mean, na.rm = TRUE))
+
+# Préparation du format fmsb
+rownames(mean_data) <- mean_data$groupe
+mean_data$groupe <- NULL
+
+# Normalisation entre 0 et 1
+mean_scaled <- as.data.frame(lapply(mean_data, rescale))
+mean_scaled <- rbind(rep(1, ncol(mean_scaled)), rep(0, ncol(mean_scaled)), mean_scaled)
+
+# Couleurs
+colors_border <- c("#F4A261", "#264653")
+colors_in <- c(alpha("#F4A261", 0.3), alpha("#264653", 0.3))
+
+radarchart(
+  mean_scaled,
+  axistype    = 1,
+  pcol        = colors_border,
+  pfcol       = colors_in,
+  plwd        = 2,
+  cglcol      = "grey", cglty = 1,
+  axislabcol  = "grey20",
+  seg         = 1,                    # une seule graduation
+  caxislabels = c("0", "1"),          # on affiche juste 0 (centre) et 1 (bord)
+  vlcex       = 0.8,
+  title       = "Comparaison des profils chimiques (1 = max, 0 = min)"
+)
+
+legend(
+  "topright",
+  legend   = rownames(mean_scaled),
+  bty      = "n",
+  pch      = 20,
+  col      = colors_border,
+  text.col = "black",
+  pt.cex   = 2
+)
+```
+## 💡 Interprétation 2
+
+Ce second visuel applique une normalisation min–max stricte sur chaque variable, de sorte que pour chaque axe,
+la valeur 0 correspond au minimum global et 1 au maximum global enregistré dans l’ensemble de données.
+Cette représentation met en évidence les écarts extrêmes entre les deux groupes, en montrant dans quelle mesure chaque groupe s’approche des valeurs minimales ou maximales possibles par variable.
+On constate que les différences déjà entrevues dans le graphique précédent apparaissent ici de manière encore plus prononcée.
+Par exemple, sur l’axe alcool, la courbe des vins excellents atteint 1.0 (le maximum), tandis que celle des autres vins reste nettement en deçà, a 0.
+– signe que les vins de haute qualité tendent à titrer parmi les degrés d’alcool les plus élevés du panel.
+
+À l’opposé, pour l’acidité volatile, la courbe du groupe "autres" monte vers 1.0, indiquant que les vins de moindre qualité approchent le maximum d’acidité volatile observé, alors que les excellents restent près de 0 (proche du minimum de VA).
+
+Cette visualisation extrême révèle ainsi quelles variables ont les écarts relatifs les plus marqués entre groupes.
+On remarque que les vins "Excellents" atteignent ou frôlent l’extrémité favorable sur plusieurs axes: outre l’alcool élevé, ils présentent parmi les teneurs les plus basses en chlorures et en densité
+(une densité plus faible découle d’un alcool plus élevé et d’un extrait sec modéré, caractéristiques des vins mieux notés).
+Ils affichent aussi des valeurs très élevées en SO₂ libre et total. n revanche, le groupe des autres vins se distingue par certains pôles extrêmes défavorables:
+en plus d’une acidité volatile très forte, ils atteignent par exemple le maximum en chlorures (ils contiennent pour certains autant de sel que le vin le plus salé analysé)
+et affichent une des valeurs les plus élevées en sulfates.
+
+## Conclusion
+
+Les paramètres les plus discriminants pour reconnaître un vin excellent sont l’alcool élevé, l’acidité volatile basse, un faible taux de chlorures,
+et dans une moindre mesure un bon équilibre en sulfates, une acidité fixe un peu plus élevée (pH légèrement plus bas), ainsi qu’une gestion appropriée du SO₂.
+Ces facteurs concordent avec ce qui est rapporté dans la littérature œnologique et les analyses de corrélation sur des jeux de données de vins:
+la qualité du vin est fortement corrélée positivement à l’alcool et négativement à l’acidité volatile,
+elle est également liée significativement (quoique plus modérément) à des paramètres comme les sulfates, l’acide citrique, les chlorures ou le SO₂.
+À l’inverse, des variables comme le sucre résiduel ou l’acidité fixe (indirectement reflétée par le pH) montrent peu d’influence directe sur la qualité perçuedans ce contexte
