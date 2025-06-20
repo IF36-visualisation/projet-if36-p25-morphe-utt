@@ -1,0 +1,126 @@
+---
+title: "Carte interactive des cépages par région"
+author: "Projet DataViz"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cosmo
+    df_print: paged
+---
+
+## Problématique
+
+**Comment se répartissent les types de cépages (catégorie : cépage) en fonction des régions viticoles (région) ?**
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(ggplot2)
+library(GGally)
+library(readr)
+library(leaflet)
+library(dplyr)
+library(tibble)
+library(ggcorrplot)
+```
+
+## 1. Chargement et préparation des données
+
+```{r load-data}
+# Chargement des fichiers CSV
+red_wine <- read_delim("~/Enregistrements/red_wine.csv", delim = ";", locale = locale(encoding = "UTF-8"))
+white_wine <- read_delim("~/Enregistrements/white_wine.csv", delim = ";", locale = locale(encoding = "UTF-8"))
+
+# Colonnes communes
+common_cols <- intersect(colnames(red_wine), colnames(white_wine))
+
+# Ajout du type de vin
+red_wine_common <- red_wine %>% select(all_of(common_cols)) %>% mutate(type = "Rouge")
+white_wine_common <- white_wine %>% select(all_of(common_cols)) %>% mutate(type = "Blanc")
+
+# Fusion des jeux de données
+wine_combined <- bind_rows(red_wine_common, white_wine_common)
+```
+
+## 2. Positionnement des régions viticoles
+
+```{r define-regions}
+regions_fr <- tibble(
+  region = c("Alsace", "Bordeaux", "Bourgogne", "Loire", "Vallée du Rhône"),
+  lon = c(7.5, -0.58, 4.84, 0.7, 4.8),
+  lat = c(48.5, 44.8, 47.0, 47.4, 45.0)
+)
+```
+
+## 3. Agrégation des cépages par région
+
+```{r cepages-map-data}
+dot_data <- wine_combined %>%
+  filter(region %in% regions_fr$region) %>%
+  group_by(region, cepage) %>%
+  summarise(n = n(), .groups = "drop") %>%
+  left_join(regions_fr, by = "region")
+
+# Placement circulaire des cépages autour de chaque région
+
+dot_data <- dot_data %>%
+  arrange(region, cepage) %>%
+  group_by(region) %>%
+  mutate(
+    idx = row_number(),
+    total = n(),
+    angle = 2 * pi * (idx - 1) / total,
+    offset = 0.4,
+    lon_jitter = lon + offset * cos(angle),
+    lat_jitter = lat + offset * sin(angle),
+    radius = pmax(sqrt(n) * 3, 6)
+  ) %>%
+  ungroup()
+```
+
+## 4. Carte interactive des cépages
+
+```{r leaflet-map}
+cepages <- unique(dot_data$cepage)
+colors <- colorFactor(rainbow(length(cepages)), domain = cepages)
+
+leaflet(dot_data) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addCircleMarkers(
+    ~lon_jitter, ~lat_jitter,
+    color = ~colors(cepage),
+    radius = ~radius,
+    fillOpacity = 0.85,
+    label = ~paste0(
+      "<b>Région :</b> ", region,
+      "<br><b>Cépage :</b> ", cepage,
+      "<br><b>Occurrences :</b> ", n
+    ),
+    labelOptions = labelOptions(direction = "auto")
+  ) %>%
+  addLabelOnlyMarkers(
+    data = regions_fr,
+    lng = ~lon, lat = ~lat + 0.5,
+    label = ~region,
+    labelOptions = labelOptions(noHide = TRUE, direction = 'top',
+                                textOnly = TRUE, style = list(
+                                  "font-weight" = "bold",
+                                  "font-size" = "13px",
+                                  "color" = "black"
+                                ))
+  ) %>%
+  addLegend("bottomright", pal = colors, values = ~cepage,
+            title = "Cépages détectés", opacity = 1)
+```
+
+## 5. Interprétation
+
+#Cette carte interactive met en évidence la répartition géographique des cépages dans les principales régions viticoles françaises. 
+
+#- Chaque bulle colorée représente un cépage.
+#- La taille des bulles est proportionnelle au nombre d'occurrences du cépage.
+#- Les régions sont clairement identifiées et permettent de comprendre la concentration locale.
+
+#Ce type de visualisation est très utile pour l'analyse exploratoire des données viticoles.
