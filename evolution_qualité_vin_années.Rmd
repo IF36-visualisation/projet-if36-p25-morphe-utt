@@ -1,0 +1,88 @@
+---
+title: "Analyse de l'évolution de la qualité des vins par année"
+author: "Projet DataViz"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: journal
+    df_print: paged
+---
+
+## Problématique
+
+**Comment la qualité moyenne des vins évolue-t-elle d'une année à l'autre, en fonction du type de vin (rouge ou blanc) ?**
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(ggplot2)
+library(GGally)
+library(readr)
+```
+
+## 1. Chargement et préparation des données
+
+```{r load-data}
+# Lecture des fichiers CSV
+red_wine <- read_delim("~/Enregistrements/red_wine.csv", delim = ";", locale = locale(encoding = "UTF-8"))
+white_wine <- read_delim("~/Enregistrements/white_wine.csv", delim = ";", locale = locale(encoding = "UTF-8"))
+
+# Colonnes communes
+common_cols <- intersect(colnames(red_wine), colnames(white_wine))
+
+# Harmonisation des colonnes et ajout du type
+red_wine_common <- red_wine %>%
+  select(all_of(common_cols)) %>%
+  mutate(type = "Rouge")
+
+white_wine_common <- white_wine %>%
+  select(all_of(common_cols)) %>%
+  mutate(type = "Blanc")
+
+# Fusion des données
+all_wine  <- bind_rows(red_wine_common, white_wine_common)
+```
+
+## 2. Calcul de la qualité moyenne par année et type de vin
+
+```{r group-quality}
+# Agrégation
+quality_by_year <- all_wine %>%
+  group_by(annee, type_vin) %>%
+  summarise(qualite_moyenne = mean(quality, na.rm = TRUE)) %>%
+  ungroup()
+
+# Conversion en facteur pour l'axe des x
+quality_by_year$annee <- as.factor(quality_by_year$annee)
+```
+
+## 3. Visualisation de l'évolution de la qualité
+
+```{r plot-quality-evolution}
+ggplot(quality_by_year, aes(x = annee, y = qualite_moyenne, color = type_vin, group = type_vin)) +
+  geom_line(linewidth = 1.2) +
+  geom_point(size = 2.5) +
+  labs(
+    title = "\u00c9volution de la qualit\u00e9 des vins par ann\u00e9e",
+    x = "Ann\u00e9e",
+    y = "Qualit\u00e9",
+    color = "Type de vin"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    panel.grid = element_blank()
+  ) +
+  scale_color_manual(values = c("Rouge" = "darkred", "Blanc" = "goldenrod"))
+```
+
+## 4. Interprétation *(en commentaires)*
+
+<!-- 
+- Le graphique montre l'évolution de la qualité moyenne des vins rouges et blancs au fil des années. 
+- On peut observer si une tendance générale se dégage : par exemple, une amélioration ou une dégradation de la qualité. 
+- Les écarts entre les deux types de vins peuvent suggérer des différences de conditions climatiques, de production ou de vinification selon les années. 
+- Une année avec une qualité nettement supérieure ou inférieure à la moyenne peut justifier une analyse plus approfondie. 
+-->
