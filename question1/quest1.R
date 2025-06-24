@@ -23,6 +23,7 @@ wine <- bind_rows(redwine, whitewine)
 ggplot(wine, aes(x = reorder(region, temperature_service, FUN = median), y = temperature_service, fill = type_vin)) +
   geom_boxplot(outlier.alpha = 0.3) +
   coord_flip() +
+  scale_y_continuous(breaks = seq(5, 20, by = 1)) +  # axe Y = température plus détaillé
   theme_minimal(base_size = 12) +
   scale_fill_manual(values = c("Rouge" = "firebrick", "Blanc" = "steelblue")) +
   labs(
@@ -31,5 +32,6 @@ ggplot(wine, aes(x = reorder(region, temperature_service, FUN = median), y = tem
     y     = "Température idéale de service (°C)",
     fill  = "Type de vin"
   )
+
 
 
